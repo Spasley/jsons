@@ -1,37 +1,7 @@
 {
   "items": [
-    {
-      "bubble": {
-        "text": "Вести бюджет — значит правильно контролировать свои расходы.",
-        "markdown": true
-      }
-    },
-    {
-      "bubble": {
-        "text": "Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».",
-        "markdown": true
-      }
-    }
-  ],
-  "suggestions": {
-    "buttons": [
-      {
-        "title": "[Перейти в бюджет]",
-        "action": {
-          "deep_link": "sberbankonline://pfm/budget",
-          "type": "deep_link"
-        }
-      }
-    ]
-  },
-  "pronounceText": "<speak>Вести' бюджет — значит правильно контролировать свои расходы. Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».</speak>",
-  "auto_listening": false,
-  "debug_info": {
-    "intent": null,
-    "debug_info_key": "aa2f84d9-2497-4408-a4ea-8a38310ebbb3"
-  },
-  "finished": true,
-  "card": {
+  	{
+  	"card": {
     "type": "list_card",
     "cells": [
       {
@@ -83,4 +53,37 @@
       }
     ]
   }
+  	},
+    {
+      "bubble": {
+        "text": "Вести бюджет — значит правильно контролировать свои расходы.",
+        "markdown": true
+      }
+    },
+    {
+      "bubble": {
+        "text": "Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».",
+        "markdown": true
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "[Перейти в бюджет]",
+        "action": {
+          "deep_link": "sberbankonline://pfm/budget",
+          "type": "deep_link"
+        }
+      }
+    ]
+  },
+  "pronounceText": "<speak>Вести' бюджет — значит правильно контролировать свои расходы. Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».</speak>",
+  "auto_listening": false,
+  "debug_info": {
+    "intent": null,
+    "debug_info_key": "aa2f84d9-2497-4408-a4ea-8a38310ebbb3"
+  },
+  "finished": true,
+  
 }
