@@ -1,1 +1,88 @@
-{"items": [{"bubble": {"text": "Вести бюджет — значит правильно контролировать свои расходы.", "markdown": true}}, {"bubble": {"text": "Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».", "markdown": true}}], "suggestions": {"buttons": [{"title": "[Перейти в бюджет]", "action": {"deep_link": "sberbankonline://pfm/budget", "type": "deep_link"}}]}, "pronounceText": "<speak>Вести' бюджет — значит правильно контролировать свои расходы. Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».</speak>", "auto_listening": false, "debug_info": {"intent": null, "debug_info_key": "aa2f84d9-2497-4408-a4ea-8a38310ebbb3"}, "finished": true}
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "Вести бюджет — значит правильно контролировать свои расходы.",
+        "markdown": true
+      }
+    },
+    {
+      "bubble": {
+        "text": "Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».",
+        "markdown": true
+      }
+    }
+  ],
+  "suggestions": {
+    "buttons": [
+      {
+        "title": "[Перейти в бюджет]",
+        "action": {
+          "deep_link": "sberbankonline://pfm/budget",
+          "type": "deep_link"
+        }
+      }
+    ]
+  },
+  "pronounceText": "<speak>Вести' бюджет — значит правильно контролировать свои расходы. Считайте свои свободные деньги и планируйте траты в сервисе «Ваш бюджет».</speak>",
+  "auto_listening": false,
+  "debug_info": {
+    "intent": null,
+    "debug_info_key": "aa2f84d9-2497-4408-a4ea-8a38310ebbb3"
+  },
+  "finished": true,
+  {
+            "card": {
+              "type": "list_card",
+              "cells": [
+                {
+                  "type": "left_right_cell_view",
+                  "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                      "tint_color": "solid_brand",
+                      "address": {
+                        "type": "local",
+                        "identificator": "other"
+                      },
+                      "size": {
+                        "width": "medium",
+                        "height": "medium"
+                      },
+                      "margins": {
+                        "left": "8x",
+                        "top": "5x",
+                        "right": "6x",
+                        "bottom": "5x"
+                      }
+                    },
+                    "title": {
+                      "text": "[Перейти в бюджет]",
+                      "typeface": "body1",
+                      "text_color": "default",
+                      "max_lines": 1,
+                      "margins": {
+                        "top": "9x",
+                        "bottom": "9x"
+                      }
+                    }
+                  },
+                  "right": {
+                    "type": "disclosure_right_view",
+                    "margins": {
+                      "top": "8x",
+                      "right": "4x",
+                      "bottom": "8x"
+                    }
+                  },
+                  "actions": [
+                    {
+                      "type": "deep_link",
+                      "deep_link": "{% if payload.device.platformType|upper == 'IOS' %}sberbankonline://payments/moneybox{% elif main_form.get_subintent.environment == 'prod' %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/payments/moneybox{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/payments/moneybox{% endif %}"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+}
