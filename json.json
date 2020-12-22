@@ -1,65 +1,60 @@
-{
-        "finished": true,
-        "pronounceText": "Большинство экспертов рекомендуют откладывать не менее десяти процентов от доходов.",
-        "items": [
-          {
-            "bubble": {
-              "text": "Большинство экспертов рекомендуют откладывать не менее 10% от доходов."
+[
+  {
+    "type": "bubble_text",
+    "text": "Чтобы узнать или поменять свой бюджет на отдельную категорию расходов, загляни в сервис «Ваш бюджет»."
+  },
+  {
+    "card": {
+      "type": "list_card",
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "tint_color": "solid_brand",
+              "address": {
+                "type": "local",
+                "identificator": "other"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "left": "8x",
+                "top": "5x",
+                "right": "6x",
+                "bottom": "5x"
+              }
+            },
+            "title": {
+              "text": "[Посмотреть бюджет]",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1,
+              "margins": {
+                "top": "9x",
+                "bottom": "9x"
+              }
             }
           },
-          {
-            "card": {
-              "type": "list_card",
-              "cells": [
-                {
-                  "type": "left_right_cell_view",
-                  "left": {
-                    "type": "simple_left_view",
-                    "icon": {
-                      "tint_color": "solid_brand",
-                      "address": {
-                        "type": "local",
-                        "identificator": "other"
-                      },
-                      "size": {
-                        "width": "medium",
-                        "height": "medium"
-                      },
-                      "margins": {
-                        "left": "8x",
-                        "top": "5x",
-                        "right": "6x",
-                        "bottom": "5x"
-                      }
-                    },
-                    "title": {
-                      "text": "[Перейти в бюджет]",
-                      "typeface": "body1",
-                      "text_color": "default",
-                      "max_lines": 1,
-                      "margins": {
-                        "top": "9x",
-                        "bottom": "9x"
-                      }
-                    }
-                  },
-                  "right": {
-                    "type": "disclosure_right_view",
-                    "margins": {
-                      "top": "8x",
-                      "right": "4x",
-                      "bottom": "8x"
-                    }
-                  },
-                  "actions": [
-                    {
-                      "type": "deep_link",
-                      "deep_link": "{% if payload.device.platformType|upper == 'IOS' %}sberbankonline://payments/moneybox{% elif main_form.get_subintent.environment == 'prod' %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/payments/moneybox{% else %}android-app://ru.sberbankmobile_alpha/android-app/ru.sberbankmobile_alpha/payments/moneybox{% endif %}"
-                    }
-                  ]
-                }
-              ]
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
             }
-          }
-        ]
-      }
+          },
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "sberbankonline://pfm/budget"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
