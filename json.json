@@ -1,70 +1,72 @@
 {
-  "finished": true,
-  "pronounceText": "Знаю *способ ограничить расходы. Попробуй поставить бюджеты для обязательных расходов в сервисе «Ваш бюджет», а затем *скрой их из бюджета в настройках. В бюджете на месяц останется только сумма, которую можно спокойно потратить.",
-  "items": [
-    {
-      "bubble": {
-        "text": "Знаю способ ограничить расходы. Попробуй поставить бюджеты для обязательных расходов в сервисе «Ваш бюджет», а затем скрой их из бюджета в настройках."
-      }
-    },
-    {
-      "bubble": {
-        "text": "В бюджете на месяц останется только сумма, которую можно спокойно потратить."
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "left_right_cell_view",
-            "left": {
-              "type": "simple_left_view",
-              "icon": {
-                "tint_color": "solid_brand",
-                "address": {
-                  "type": "local",
-                  "identificator": "other"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "left": "8x",
-                  "top": "5x",
-                  "right": "6x",
-                  "bottom": "5x"
+    "type": "sdk_answer_to_user",
+    "static": {
+        "ios_card": {
+            "type": "list_card",
+            "cells": [
+                {
+                    "ios_params": "ios"
                 }
-              },
-              "title": {
-                "text": "[Настроить бюджет]",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 1,
-                "margins": {
-                  "top": "9x",
-                  "bottom": "9x"
-                }
-              }
-            },
-            "right": {
-              "type": "disclosure_right_view",
-              "margins": {
-                "top": "8x",
-                "right": "4x",
-                "bottom": "8x"
-              }
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "sberbankonline://pfm/budget"
-              }
             ]
-          }
-        ]
-      }
-    }
-  ]
+        },
+        "android_card": {
+            "type": "list_card",
+            "cells": [
+                {
+                    "android_params": "android"
+                }
+            ]
+        },
+        "static_sg_dl": "www.www.www",
+        "static_sg_text": "static suggest text"
+    },
+    "random_choice": [
+        {
+            "random_choice_greeting": "random text1"
+        },
+        {
+            "random_choice_greeting": "random text2"
+        }
+    ],
+    "root":
+        [
+            {
+                "type": "pronounce_text",
+                "text": "random_choice_greeting"
+            }
+        ],
+    "items": [
+        {
+            "type": "item_card",
+            "text": "ios_card",
+            "requirement": {
+                "type": "external",
+                "requirement": "OCTOBER_iOS"
+            }
+        },
+        {
+            "type": "item_card",
+            "text": "android_card",
+            "requirement": {
+                "type": "external",
+                "requirement": "OCTOBER_android"
+            }
+        },
+        {
+            "type": "bubble_text",
+            "text": "random_choice_greeting"
+        }
+    ],
+    "suggestions": [
+        {
+            "type": "suggest_text",
+            "text": "static_sg_text",
+            "title": "tittle1"
+        },
+        {
+            "type": "suggest_deeplink",
+            "title": "title2",
+            "deep_link": "static_sg_dl"
+        }
+    ]
 }
