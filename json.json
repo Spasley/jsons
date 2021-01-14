@@ -7,165 +7,127 @@
     },
     "cells": [
       {
-        "type": "button_cell_view",
+        "type": "text_cell_view",
         "content": {
-          "text": "зеленая кнопка",
-          "typeface": "button1",
+          "text": "Мои карты",
+          "typeface": "title1",
+          "text_color": "default"
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x",
+          "bottom": "6x"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "divider": {
           "style": "default",
-          "type": "accept",
-          "actions": [
-            {
-              "type": "text",
-              "text": "нажал на зеленую кнопку"
-            }
-          ],
-          "margins": {
-            "left": "10x",
-            "top": "5x",
-            "right": "10x",
-            "bottom": "5x"
-          }
+          "size": "d5"
         },
         "paddings": {
-          "left": "4x",
-          "top": "4x",
-          "right": "4x",
-          "bottom": "4x"
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card_mc_black"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "MasterCard Gold зарплатная",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "subtitle": {
+              "text": "•• 1234",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "10 000 000 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
         }
       },
       {
-        "type": "button_cell_view",
-        "content": {
-          "text": "серая кнопка",
-          "typeface": "button1",
-          "style": "default",
-          "type": "disabled",
-          "actions": [
-            {
-              "type": "text",
-              "text": "нажал на серую кнопку"
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card_visa_digital"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
             }
-          ],
-          "margins": {
-            "left": "10x",
-            "top": "5x",
-            "right": "10x",
-            "bottom": "5x"
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "Digital Visa",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "subtitle": {
+              "text": "•• 8019",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
           }
         },
-        "paddings": {
-          "left": "4x",
-          "top": "4x",
-          "right": "4x",
-          "bottom": "4x"
-        }
-      },
-      {
-        "type": "button_cell_view",
-        "content": {
-          "text": "красная кнопка",
-          "typeface": "button1",
-          "style": "default",
-          "type": "negative",
-          "actions": [
-            {
-              "type": "text",
-              "text": "нажал на красную кнопку"
-            }
-          ],
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-6 000 ₽",
+            "typeface": "body1",
+            "text_color": "warning"
+          },
           "margins": {
-            "left": "10x",
-            "top": "5x",
-            "right": "10x",
-            "bottom": "5x"
-          }
-        },
-        "paddings": {
-          "left": "4x",
-          "top": "4x",
-          "right": "4x",
-          "bottom": "4x"
-        }
-      },
-      {
-        "type": "button_cell_view",
-        "content": {
-          "text": "кнопка с зеленым текстом",
-          "typeface": "button1",
-          "style": "transparent",
-          "type": "accept",
-          "actions": [
-            {
-              "type": "text",
-              "text": "нажал на кнопку с зеленым текстом"
-            }
-          ],
-          "margins": {
-            "left": "10x",
-            "top": "5x",
-            "right": "10x",
-            "bottom": "5x"
-          }
-        },
-        "paddings": {
-          "left": "4x",
-          "top": "4x",
-          "right": "4x",
-          "bottom": "4x"
-        }
-      },
-      {
-        "type": "button_cell_view",
-        "content": {
-          "text": "кнопка с серым текстом",
-          "typeface": "button1",
-          "style": "transparent",
-          "type": "disabled",
-          "actions": [
-            {
-              "type": "text",
-              "text": "нажал на кнопку с серым текстом"
-            }
-          ],
-          "margins": {
-            "left": "10x",
-            "top": "5x",
-            "right": "10x",
-            "bottom": "5x"
-          }
-        },
-        "paddings": {
-          "left": "4x",
-          "top": "4x",
-          "right": "4x",
-          "bottom": "4x"
-        }
-      },
-      {
-        "type": "button_cell_view",
-        "content": {
-          "text": "кнопка с красным текстом",
-          "typeface": "button1",
-          "style": "transparent",
-          "type": "negative",
-          "actions": [
-            {
-              "type": "text",
-              "text": "нажал на кнопку с красным текстом"
-            }
-          ],
-          "margins": {
-            "left": "10x",
-            "top": "5x",
-            "right": "10x",
-            "bottom": "5x"
-          }
-        },
-        "paddings": {
-          "left": "4x",
-          "top": "4x",
-          "right": "4x",
-          "bottom": "4x"
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
         }
       }
     ]
