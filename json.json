@@ -1,72 +1,54 @@
 {
-    "type": "sdk_answer_to_user",
-    "static": {
-        "ios_card": {
-            "type": "list_card",
-            "cells": [
-                {
-                    "ios_params": "ios"
-                }
-            ]
-        },
-        "android_card": {
-            "type": "list_card",
-            "cells": [
-                {
-                    "android_params": "android"
-                }
-            ]
-        },
-        "static_sg_dl": "www.www.www",
-        "static_sg_text": "static suggest text"
-    },
-    "random_choice": [
-        {
-            "random_choice_greeting": "random text1"
-        },
-        {
-            "random_choice_greeting": "random text2"
-        }
-    ],
-    "root":
-        [
-            {
-                "type": "pronounce_text",
-                "text": "random_choice_greeting"
+  "card": {
+    "type": "list_card",
+    "cells": [
+      {
+        "type": "left_right_cell_view",
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "atm_banknote"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "left": "8x",
+              "top": "5x",
+              "right": "6x",
+              "bottom": "5x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "title": {
+            "text": "<p>Банкоматы</p><p><b>Second line</b></p>",
+            "typeface": "body1",
+            "text_color": "default",
+            "max_lines": 1,
+            "margins": {
+              "top": "9x",
+              "bottom": "9x"
             }
-        ],
-    "items": [
-        {
-            "type": "item_card",
-            "text": "ios_card",
-            "requirement": {
-                "type": "external",
-                "requirement": "OCTOBER_iOS"
-            }
+          }
         },
-        {
-            "type": "item_card",
-            "text": "android_card",
-            "requirement": {
-                "type": "external",
-                "requirement": "OCTOBER_android"
-            }
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "top": "8x",
+            "right": "4x",
+            "bottom": "8x"
+          }
         },
-        {
-            "type": "bubble_text",
-            "text": "random_choice_greeting"
-        }
-    ],
-    "suggestions": [
-        {
-            "type": "suggest_text",
-            "text": "static_sg_text",
-            "title": "tittle1"
-        },
-        {
-            "type": "suggest_deeplink",
-            "title": "<p>Title1</p><p>Title2</p>",
-            "deep_link": "static_sg_dl"
-        }
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "<диплник на банкоматы>"
+          }
+        ]
+      }
     ]
+  }
 }
