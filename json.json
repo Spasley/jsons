@@ -65,7 +65,7 @@
         },
         {
             "type": "suggest_deeplink",
-            "title": "title2",
+            "title": "<p>Title1</p><p>Title2</p>",
             "deep_link": "static_sg_dl"
         }
     ]
