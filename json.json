@@ -81,7 +81,7 @@
           "icon": {
             "address": {
               "type": "local",
-              "identificator": "card_mc_black"
+              "identificator": "pfm"
             },
             "size": {
               "width": "medium",
@@ -122,7 +122,7 @@
           "icon": {
             "address": {
               "type": "local",
-              "identificator": "card_visa_digital"
+              "identificator": "pfm"
             },
             "size": {
               "width": "medium",
