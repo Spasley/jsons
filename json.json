@@ -13,29 +13,43 @@
         },
         "details": [
           {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "info": {
-                "text": "+20°",
-                "typeface": "headline1",
-                "text_color": "default",
-                "max_lines": 1
-              },
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "url": "https://cs5-2.4pda.to/6380085.png"
-                },
-                "size": {
-                  "width": "medium",
-                  "height": "medium"
-                },
-                "margins": {
-                  "left": "4x"
+                "type": "detail_right_view",
+                "info_and_icon": {
+                  "icon": {
+                    "address": {
+                      "type": "url",
+                      "hash": "1add19855fcd158ece0fd52c7fb13750",
+                      "url": "https://cdn.sberdevices.ru/VA/images/prime/okko.png"
+                    },
+                    "size": {
+                      "width": "large",
+                      "height": "large"
+                    },
+                    "margins": {
+                      "right": "4x"
+                    }
+                  }
                 }
-              }
-            }
-          }
+              },
+              {
+                "type": "detail_right_view",
+                "info_and_icon": {
+                  "icon": {
+                    "address": {
+                      "type": "url",
+                      "hash": "a33c4a8221c699549ba266e6e80ba2f0",
+                      "url": "https://cdn.sberdevices.ru/VA/images/prime/zvooq.png"
+                    },
+                    "size": {
+                      "width": "large",
+                      "height": "large"
+                    },
+                    "margins": {
+                      "right": "4x"
+                    }
+                  }
+                }
+              },
         ]
       },
       {
