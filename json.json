@@ -2,25 +2,27 @@
   "card": {
     "type": "list_card",
     "paddings": {
-      "bottom": "12x"
+      "top": "4x",
+      "bottom": "4x"
     },
     "cells": [
       {
-        "type": "image_cell_view",
+        "type": "text_cell_view",
         "content": {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg",
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
-            }
-          ]
+          "text": "Бюджет",
+          "typeface": "title2",
+          "text_color": "default"
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x"
         }
       },
       {
         "type": "text_cell_view",
         "content": {
-          "text": "Киану Ривз",
+          "text": "61000 Р",
           "typeface": "title1",
           "text_color": "default"
         },
@@ -33,7 +35,7 @@
       {
         "type": "text_cell_view",
         "content": {
-          "text": "55 лет",
+          "text": "Можно потратить",
           "typeface": "footnote1",
           "text_color": "secondary"
         },
@@ -44,59 +46,89 @@
         }
       },
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Канадский актёр, кинопродюсер, и музыкант. Наиболее известен своими ролями в киносериях «Матрица» и «Джон Уик»...",
-          "typeface": "body2",
-          "text_color": "default",
-          "max_lines": 0
+        "type": "left_right_cell_view",
+        "divider": {
+          "style": "default",
+          "size": "d5"
         },
         "paddings": {
           "left": "8x",
-          "top": "6x",
-          "right": "8x"
-        }
-      },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "ru.wikipedia.org",
-          "typeface": "footnote1",
-          "text_color": "secondary",
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
-            }
-          ]
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
         },
-        "paddings": {
-          "left": "8x",
-          "top": "4x",
-          "right": "8x"
-        }
-      },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Подробнее",
-          "typeface": "button1",
-          "text_color": "brand",
-          "actions": [
-            {
-              "type": "text",
-              "text": "Расскажи про него подробней"
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card_mc_black"
             },
-            {
-              "type": "deep_link",
-              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
             }
-          ]
-        },
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "Рестораны и кафе",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "subtitle": {
+              "text": "Осталось 38000 Р из 50000 Р",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "left_right_cell_view",
         "paddings": {
           "left": "8x",
-          "top": "12x",
-          "right": "8x"
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card_visa_digital"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "Автомобиль",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "subtitle": {
+              "text": "Осталось 23000 Р из 60000 Р",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
         }
       }
     ]
