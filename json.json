@@ -50,17 +50,18 @@
             "title": {
               "text": "Можно потратить",
               "typeface": "footnote1",
-          	  "text_color": "secondary"
+              "text_color": "secondary"
             }
           }
         },
         "right": {
-          "type": "simple_right_view",
-          "texts": {
-            "title": {
+          "type": "details_right_view",
+          "info_and_icon": {
+            "info": {
               "text": "из 110000 Р",
               "typeface": "footnote1",
-          	  "text_color": "secondary"
+              "text_color": "secondary"
+              "max_lines": 1
             }
           }
         }
