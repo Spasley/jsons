@@ -13,43 +13,87 @@
         },
         "details": [
           {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "1add19855fcd158ece0fd52c7fb13750",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/okko.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
+        "type": "text_cell_view",
+        "content": {
+          "text": "Киану Ривз",
+          "typeface": "title1",
+          "text_color": "default"
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "55 лет",
+          "typeface": "footnote1",
+          "text_color": "secondary"
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "4x",
+          "right": "8x"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Канадский актёр, кинопродюсер, и музыкант. Наиболее известен своими ролями в киносериях «Матрица» и «Джон Уик»...",
+          "typeface": "body2",
+          "text_color": "default",
+          "max_lines": 0
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "ru.wikipedia.org",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
             }
-          },
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "a33c4a8221c699549ba266e6e80ba2f0",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/zvooq.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
+          ]
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "4x",
+          "right": "8x"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Подробнее",
+          "typeface": "button1",
+          "text_color": "brand",
+          "actions": [
+            {
+              "type": "text",
+              "text": "Расскажи про него подробней"
+            },
+            {
+              "type": "deep_link",
+              "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
             }
-          }
+          ]
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "12x",
+          "right": "8x"
+        }
+      }
         ]
       },
       {
