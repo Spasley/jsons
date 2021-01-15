@@ -15,7 +15,20 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "Киану Ривз",
+              "text": "Бюджет",
+              "typeface": "title2",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "61000 Р",
               "typeface": "title1",
               "text_color": "default"
             },
@@ -28,7 +41,7 @@
           {
             "type": "text_cell_view",
             "content": {
-              "text": "55 лет",
+              "text": "Можно потратить",
               "typeface": "footnote1",
               "text_color": "secondary"
             },
@@ -49,25 +62,6 @@
             "paddings": {
               "left": "8x",
               "top": "6x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "ru.wikipedia.org",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "https://ru.wikipedia.org/wiki/Ривз,_Киану"
-                }
-              ]
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "4x",
               "right": "8x"
             }
           }
