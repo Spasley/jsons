@@ -55,7 +55,7 @@
           }
         },
         "right": {
-          "type": "details_right_view",
+          "type": "detail_right_view",
           "info_and_icon": {
             "info": {
               "text": "из 110000 Р",
