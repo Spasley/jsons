@@ -56,13 +56,11 @@
         },
         "right": {
           "type": "detail_right_view",
-          "info_and_icon": {
-            "info": {
-              "text": "из 110000 Р",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-              "max_lines": 1
-            }
+          "detail": {
+            "text": "из 110000 Р",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 1
           }
         }
       },
