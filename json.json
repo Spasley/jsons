@@ -33,16 +33,36 @@
         }
       },
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Можно потратить",
-          "typeface": "footnote1",
-          "text_color": "secondary"
+        "type": "left_right_cell_view",
+        "divider": {
+          "style": "default",
+          "size": "d5"
         },
         "paddings": {
           "left": "8x",
-          "top": "4x",
-          "right": "8x"
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "Можно потратить",
+              "typeface": "footnote1",
+          	  "text_color": "secondary"
+            }
+          }
+        },
+        "right": {
+          "type": "simple_right_view",
+          "texts": {
+            "title": {
+              "text": "из 110000 Р",
+              "typeface": "footnote1",
+          	  "text_color": "secondary"
+            }
+          }
         }
       },
       {
