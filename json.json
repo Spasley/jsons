@@ -9,7 +9,7 @@
       {
         "type": "text_cell_view",
         "content": {
-          "text": "Мои карты",
+          "text": "Бюджет",
           "typeface": "title1",
           "text_color": "default"
         },
@@ -50,12 +50,12 @@
           "icon_vertical_gravity": "center",
           "texts": {
             "title": {
-              "text": "MasterCard Gold зарплатная",
+              "text": "Рестораны и кафе",
               "typeface": "body1",
               "text_color": "default"
             },
             "subtitle": {
-              "text": "•• 1234",
+              "text": "Осталось 38000 Р из 50000 Р",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -63,18 +63,6 @@
               }
             }
           }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "10 000 000 ₽",
-            "typeface": "body1",
-            "text_color": "brand"
-          },
-          "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "top"
         }
       },
       {
@@ -103,12 +91,12 @@
           "icon_vertical_gravity": "center",
           "texts": {
             "title": {
-              "text": "Digital Visa",
+              "text": "Автомобиль",
               "typeface": "body1",
               "text_color": "default"
             },
             "subtitle": {
-              "text": "•• 8019",
+              "text": "Осталось 23000 Р из 60000 Р",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -116,18 +104,6 @@
               }
             }
           }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "-6 000 ₽",
-            "typeface": "body1",
-            "text_color": "warning"
-          },
-          "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "top"
         }
       }
     ]
