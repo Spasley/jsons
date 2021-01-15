@@ -7,18 +7,36 @@
     },
     "cells": [
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Бюджет",
-          "typeface": "title1",
-          "text_color": "default"
-        },
+        "type": "details_cell_view",
         "paddings": {
-          "left": "8x",
-          "top": "6x",
-          "right": "8x",
-          "bottom": "6x"
-        }
+          "top": "6x"
+        },
+        "details": [
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "info": {
+                "text": "+20°",
+                "typeface": "headline1",
+                "text_color": "default",
+                "max_lines": 1
+              },
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cs5-2.4pda.to/6380085.png"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "left": "4x"
+                }
+              }
+            }
+          }
+        ]
       },
       {
         "type": "left_right_cell_view",
