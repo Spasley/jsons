@@ -1,155 +1,110 @@
 {
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "4x",
-      "bottom": "4x"
-    },
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Бюджет",
-          "typeface": "title2",
-          "text_color": "default"
-        },
-        "paddings": {
-          "left": "8x",
-          "top": "6x",
-          "right": "8x"
-        }
-      },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "61000 Р",
-          "typeface": "title1",
-          "text_color": "default"
-        },
-        "paddings": {
-          "left": "8x",
-          "top": "6x",
-          "right": "8x"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "left": "8x",
-          "top": "2x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "texts": {
-            "title": {
-              "text": "Можно потратить",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "из 110000 Р",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        },
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "pfm"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            }
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x"
           },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "Рестораны и кафе",
-              "typeface": "body1",
-              "text_color": "default"
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "Бюджет",
+                "typeface": "title2",
+                "text_color": "default"
+              },
+              "paddings": {
+                "left": "8x",
+                "top": "6x",
+                "right": "8x"
+              }
             },
-            "subtitle": {
-              "text": "Осталось 38000 Р из 50000 Р",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "350 ₽",
+                "typeface": "title1",
+                "text_color": "default"
+              },
+              "paddings": {
+                "left": "8x",
+                "top": "6x",
+                "right": "8x"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              },
+              "paddings": {
+                "left": "8x",
+                "top": "2x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "texts": {
+                  "title": {
+                    "text": "Можно потратить",
+                    "typeface": "footnote1",
+                    "text_color": "secondary"
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "из 350 ₽",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
+                }
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "pfm"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  }
+                },
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "Автомобиль",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "subtitle": {
+                    "text": "Осталось 350 ₽ из 350 ₽",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
               }
             }
-          }
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "pfm"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "Автомобиль",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "subtitle": {
-              "text": "Осталось 23000 Р из 60000 Р",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
+          ]
         }
       }
-    ]
-  }
-}
