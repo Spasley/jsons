@@ -48,7 +48,7 @@
                 "type": "button_cell_view",
                 "content": {
                     "text": "Купить",
-                    "typeface": "button1",
+                    "typeface": "button2",
                     "style": "default",
                     "type": "accept",
                     "actions": [
