@@ -1,76 +1,173 @@
 {
-    "card": {
-        "type": "list_card",
-        "cells": [
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x"
+    },
+    "cells": [
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "зеленая кнопка",
+          "typeface": "button1",
+          "style": "default",
+          "type": "accept",
+          "actions": [
             {
-                "type": "text_cell_view",
-                "content": {
-                    "text": "200 гонконгских долларов 🇭🇰",
-                    "typeface": "headline3",
-                    "text_color": "default",
-                    "max_lines": 0
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "10x",
-                    "right": "8x"
-                }
-            },
-            {
-                "type": "text_cell_view",
-                "content": {
-                    "text": "1 663 ₽",
-                    "typeface": "headline1",
-                    "text_color": "default",
-                    "max_lines": 0
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "9x",
-                    "right": "8x"
-                }
-            },
-            {
-                "type": "text_cell_view",
-                "content": {
-                    "text": "При покупке от 500 до 1 000 HKD\n100 HKD = 6,36 RUB\nСберБанк Онлайн сейчас",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 0
-                },
-                "paddings": {
-                    "left": "8x",
-                    "top": "10x",
-                    "right": "8x"
-                }
-            },
-            {
-                "type": "button_cell_view",
-                "content": {
-                    "text": "Купить",
-                    "typeface": "button2",
-                    "style": "default",
-                    "type": "accept",
-                    "actions": [
-                        {
-                            "type": "text",
-                            "text": "Купить"
-                        }
-                    ],
-                    "margins": {
-                        "left": "10x",
-                        "top": "5x",
-                        "right": "10x",
-                        "bottom": "5x"
-                    }
-                },
-                "paddings": {
-                    "left": "6x",
-                    "top": "12x",
-                    "right": "6x",
-                    "bottom": "8x"
-                }
+              "type": "text",
+              "text": "нажал на зеленую кнопку"
             }
-        ]
-    }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "left": "4x",
+          "top": "4x",
+          "right": "4x",
+          "bottom": "4x"
+        }
+      },
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "серая кнопка",
+          "typeface": "button1",
+          "style": "default",
+          "type": "disabled",
+          "actions": [
+            {
+              "type": "text",
+              "text": "нажал на серую кнопку"
+            }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "left": "4x",
+          "top": "4x",
+          "right": "4x",
+          "bottom": "4x"
+        }
+      },
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "красная кнопка",
+          "typeface": "button1",
+          "style": "default",
+          "type": "negative",
+          "actions": [
+            {
+              "type": "text",
+              "text": "нажал на красную кнопку"
+            }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "left": "4x",
+          "top": "4x",
+          "right": "4x",
+          "bottom": "4x"
+        }
+      },
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "кнопка с зеленым текстом",
+          "typeface": "button1",
+          "style": "transparent",
+          "type": "accept",
+          "actions": [
+            {
+              "type": "text",
+              "text": "нажал на кнопку с зеленым текстом"
+            }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "left": "4x",
+          "top": "4x",
+          "right": "4x",
+          "bottom": "4x"
+        }
+      },
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "кнопка с серым текстом",
+          "typeface": "button1",
+          "style": "transparent",
+          "type": "disabled",
+          "actions": [
+            {
+              "type": "text",
+              "text": "нажал на кнопку с серым текстом"
+            }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "left": "4x",
+          "top": "4x",
+          "right": "4x",
+          "bottom": "4x"
+        }
+      },
+      {
+        "type": "button_cell_view",
+        "content": {
+          "text": "кнопка с красным текстом",
+          "typeface": "button1",
+          "style": "transparent",
+          "type": "negative",
+          "actions": [
+            {
+              "type": "text",
+              "text": "нажал на кнопку с красным текстом"
+            }
+          ],
+          "margins": {
+            "left": "10x",
+            "top": "5x",
+            "right": "10x",
+            "bottom": "5x"
+          }
+        },
+        "paddings": {
+          "left": "4x",
+          "top": "4x",
+          "right": "4x",
+          "bottom": "4x"
+        }
+      }
+    ]
+  }
 }
