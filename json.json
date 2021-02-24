@@ -1,89 +1,143 @@
 {
-        "card": {
-          "type": "list_card",
-          "cells": [
-            {
-              "type": "left_right_cell_view",
-              "divider": {
-                "style": "default",
-                "size": "d5"
+    "card": {
+      "type": "list_card",
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "tint_color": "solid_brand",
+              "address": {
+                "type": "local",
+                "identificator": "other"
               },
-              "paddings": {
-                "left": "0x",
-                "top": "6x",
-                "right": "0x",
-                "bottom": "8x"
+              "size": {
+                "width": "medium",
+                "height": "medium"
               },
-              "left": {
-                "type": "simple_left_view",
-                "title": {
-                  "text": "Конечно",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1,
-                  "margins": {
-                    "top": "9x",
-                    "bottom": "9x",
-                    "left": "8x"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "top": "8x",
-                  "right": "4x",
-                  "bottom": "8x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Конечно"
-                }
-              ]
+              "margins": {
+                "left": "8x",
+                "top": "5x",
+                "right": "6x",
+                "bottom": "5x"
+              }
             },
+            "title": {
+              "text": "Перейти в инвестиции",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1,
+              "margins": {
+                "top": "9x",
+                "bottom": "9x"
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
+          },
+          "actions": [
             {
-              "type": "left_right_cell_view",
-              "divider": {
-                "style": "default",
-                "size": "d5"
-              },
-              "paddings": {
-                "left": "0x",
-                "top": "6x",
-                "right": "0x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "title": {
-                  "text": "Давайте пропустим",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1,
-                  "margins": {
-                    "top": "9x",
-                    "bottom": "9x",
-                    "left": "8x"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "top": "8x",
-                  "right": "4x",
-                  "bottom": "8x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "text",
-                  "text": "Давайте пропустим"
-                }
-              ]
+              "type": "deep_link",
+              "deep_link": "sberbankonline://pfm/marketplace?marketPlaceId=investmentsCatalog&internal_source=voice_assistant"
             }
           ]
         }
-      }
+      ]
+    }
+  },
+  {
+    "card": {
+      "type": "list_card",
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "divider": {
+            "style": "default",
+            "size": "d5"
+          },
+          "paddings": {
+            "left": "0x",
+            "top": "6x",
+            "right": "0x",
+            "bottom": "8x"
+          },
+          "left": {
+            "type": "simple_left_view",
+            "title": {
+              "text": "Меньше 3 месяцев",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1,
+              "margins": {
+                "top": "9x",
+                "bottom": "9x",
+                "left": "8x"
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "i_want_to_invest.sure.<3_months"
+            }
+          ]
+        },
+        {
+          "type": "left_right_cell_view",
+          "divider": {
+            "style": "default",
+            "size": "d5"
+          },
+          "paddings": {
+            "left": "0x",
+            "top": "6x",
+            "right": "0x",
+            "bottom": "8x"
+          },
+          "left": {
+            "type": "simple_left_view",
+            "title": {
+              "text": "Больше 3 месяцев",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1,
+              "margins": {
+                "top": "9x",
+                "bottom": "9x",
+                "left": "8x"
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "i_want_to_invest.sure.>3_months"
+            }
+          ]
+        }
+      ]
+    }
+  }
