@@ -44,7 +44,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "из 300 ₽",
+            "text": "на сегодня",
             "typeface": "footnote1",
             "text_color": "secondary",
             "max_lines": 1
@@ -77,17 +77,27 @@
           "icon_vertical_gravity": "center",
           "texts": {
             "title": {
-              "text": "Автомобиль",
+              "text": "Карты",
               "typeface": "body1",
               "text_color": "default"
             },
             "subtitle": {
-              "text": "Осталось 999 ₽ из 999 ₽",
+              "text": "3 карты",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
                 "top": "1x"
               }
+            }
+          }
+        },
+        "right": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "1000 000 ₽",
+              "typeface": "title1",
+              "text_color": "default"
             }
           }
         }
