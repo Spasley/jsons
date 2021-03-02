@@ -92,12 +92,13 @@
           }
         },
         "right": {
-          "type": "simple_left_view",
+          "type": "detail_right_view",
           "texts": {
             "title": {
               "text": "1000 000 ₽",
               "typeface": "title1",
-              "text_color": "default"
+              "text_color": "default",
+              "max_lines": 1
             }
           }
         }
