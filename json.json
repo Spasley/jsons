@@ -20,19 +20,6 @@
         }
       },
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "127 ₽",
-          "typeface": "title1",
-          "text_color": "default"
-        },
-        "paddings": {
-          "left": "8x",
-          "top": "6x",
-          "right": "8x"
-        }
-      },
-      {
         "type": "left_right_cell_view",
         "divider": {
           "style": "default",
@@ -48,9 +35,9 @@
           "type": "simple_left_view",
           "texts": {
             "title": {
-              "text": "Можно потратить",
-              "typeface": "footnote1",
-              "text_color": "secondary"
+              "text": "165 000 ₽",
+              "typeface": "title1",
+              "text_color": "default"
             }
           }
         },
