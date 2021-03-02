@@ -94,12 +94,10 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "title": {
-              "text": "1000 000 ₽",
-              "typeface": "title1",
-              "text_color": "default",
-              "max_lines": 1
-            }
+            "text": "1000 000 ₽",
+            "typeface": "title1",
+            "text_color": "default",
+            "max_lines": 1
           }
         }
       }
