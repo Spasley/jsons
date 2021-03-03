@@ -82,7 +82,7 @@
               "text_color": "default"
             },
             "subtitle": {
-              "text": "2 ",
+              "text": "2 карт(ы)",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -132,7 +132,7 @@
               "text_color": "default"
             },
             "subtitle": {
-              "text": "0 ",
+              "text": "0 продукт(ов)",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
