@@ -35,7 +35,7 @@
           "type": "simple_left_view",
           "texts": {
             "title": {
-              "text": "165 000 ₽",
+              "text": "1408895 ₽",
               "typeface": "title1",
               "text_color": "default"
             }
@@ -82,7 +82,7 @@
               "text_color": "default"
             },
             "subtitle": {
-              "text": "3 карты",
+              "text": "2 карты",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -94,7 +94,57 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "100 000 ₽",
+            "text": "1408895 ₽",
+            "typeface": "title1",
+            "text_color": "default",
+            "max_lines": 1
+          }
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "pfm"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "Накопления",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "subtitle": {
+              "text": "0 карты",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "0 ₽",
             "typeface": "title1",
             "text_color": "default",
             "max_lines": 1
