@@ -35,7 +35,7 @@
           "type": "simple_left_view",
           "texts": {
             "title": {
-              "text": "1 408 895 ₽",
+              "text": "1 410 395 ₽",
               "typeface": "title1",
               "text_color": "default"
             }
@@ -82,7 +82,7 @@
               "text_color": "default"
             },
             "subtitle": {
-              "text": "2 карт(ы)",
+              "text": "2 карты",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -132,7 +132,7 @@
               "text_color": "default"
             },
             "subtitle": {
-              "text": "0 продукт(ов)",
+              "text": "1 продукт",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -144,7 +144,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "0 ₽",
+            "text": "1 500 ₽",
             "typeface": "title1",
             "text_color": "default",
             "max_lines": 1
