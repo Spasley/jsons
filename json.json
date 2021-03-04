@@ -35,7 +35,7 @@
           "type": "simple_left_view",
           "texts": {
             "title": {
-              "text": "1 410 395 ₽",
+              "text": "1 408 895 ₽",
               "typeface": "title1",
               "text_color": "default"
             }
@@ -64,7 +64,7 @@
           "icon": {
             "address": {
               "type": "local",
-              "identificator": "pfm"
+              "identificator": "card_visa_digital"
             },
             "size": {
               "width": "medium",
@@ -95,56 +95,6 @@
           "type": "detail_right_view",
           "detail": {
             "text": "1 408 895 ₽",
-            "typeface": "title1",
-            "text_color": "default",
-            "max_lines": 1
-          }
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "pfm"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            }
-          },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "Накопления",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "subtitle": {
-              "text": "1 продукт",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "1 500 ₽",
             "typeface": "title1",
             "text_color": "default",
             "max_lines": 1
