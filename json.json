@@ -150,13 +150,13 @@
               "text_color": "default",
               "max_lines": 2
             }
-          },
-          "margins": {
-            "right": "4x"
           }
         },
         "right": {
           "type": "detail_right_view",
+          "margins": {
+              "left": "4x"
+          }
           "detail": {
             "text": "1,57 ₽",
             "typeface": "title1",
