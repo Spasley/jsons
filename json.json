@@ -156,7 +156,7 @@
           "type": "detail_right_view",
           "margins": {
               "left": "4x"
-          }
+          },
           "detail": {
             "text": "1,57 ₽",
             "typeface": "title1",
