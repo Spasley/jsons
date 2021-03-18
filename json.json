@@ -137,7 +137,7 @@
               "text_color": "default",
               "max_lines": 2
             },
-            "paddings": {
+            "margins": {
                     "right": "2x"
                 }
           }
