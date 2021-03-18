@@ -136,7 +136,10 @@
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 2
-            }
+            },
+            "paddings": {
+                    "right": "6x"
+                }
           }
         },
         "right": {
