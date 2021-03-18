@@ -134,7 +134,8 @@
             "title": {
               "text": "Коммунальные платежи, связь, интернет",
               "typeface": "body1",
-              "text_color": "default"
+              "text_color": "default",
+              "max_lines": 2
             }
           }
         },
