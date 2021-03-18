@@ -10,6 +10,19 @@
         "type": "text_cell_view",
         "content": {
           "text": "Траты в этом месяце",
+          "typeface": "body1",
+          "text_color": "default"
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "300 Р",
           "typeface": "title2",
           "text_color": "default"
         },
@@ -135,11 +148,11 @@
               "text": "Коммунальные платежи, связь, интернет",
               "typeface": "body1",
               "text_color": "default",
-              "max_lines": 2,
-              "margins": {
-                "right": "4x"
-              }
+              "max_lines": 2
             }
+          },
+          "margins": {
+            "right": "4x"
           }
         },
         "right": {
