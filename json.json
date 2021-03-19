@@ -35,10 +35,10 @@
             {
               "type": "left_right_cell_view",
               "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
+                "left": "2x",
+                "top": "2x",
+                "right": "2x",
+                "bottom": "2x"
               },
               "left": {
                 "type": "simple_left_view",
@@ -53,7 +53,7 @@
                     "height": "medium"
                   },
                   "margins": {
-                    "right": "6x"
+                    "right": "2x"
                   }
                 },
                 "icon_vertical_gravity": "center",
@@ -78,10 +78,10 @@
             {
               "type": "left_right_cell_view",
               "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
+                "left": "2x",
+                "top": "2x",
+                "right": "2x",
+                "bottom": "2x"
               },
               "left": {
                 "type": "simple_left_view",
@@ -96,7 +96,7 @@
                     "height": "medium"
                   },
                   "margins": {
-                    "right": "6x"
+                    "right": "2x"
                   }
                 },
                 "icon_vertical_gravity": "center",
