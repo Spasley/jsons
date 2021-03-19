@@ -79,10 +79,10 @@
             {
               "type": "left_right_cell_view",
               "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
+                "left": "4x",
+                "top": "4x",
+                "right": "4x",
+                "bottom": "4x"
               },
               "left": {
                 "type": "simple_left_view",
