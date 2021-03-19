@@ -22,7 +22,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "2 628 ₽",
+                "text": "2 628,57 ₽",
                 "typeface": "title2",
                 "text_color": "default"
               },
@@ -69,8 +69,8 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "2 628",
-                  "typeface": "title1",
+                  "text": "2 628,57",
+                  "typeface": "title2",
                   "text_color": "default"
                 }
               }
@@ -113,7 +113,7 @@
                 "type": "detail_right_view",
                 "detail": {
                   "text": "1 000",
-                  "typeface": "title1",
+                  "typeface": "title2",
                   "text_color": "default"
                 }
               }
