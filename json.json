@@ -59,7 +59,7 @@
                 "icon_vertical_gravity": "center",
                 "texts": {
                   "title": {
-                    "text": " оммунальные платежи, св€зь, интернет",
+                    "text": "Коммунальные платежи, связь, интернет",
                     "typeface": "text1",
                     "text_color": "default",
                     "max_lines": 2
@@ -89,7 +89,7 @@
                   "tint_color": "solid_brand",
                   "address": {
                     "type": "local",
-                    "identificator": "heart"
+                    "identificator": "car"
                   },
                   "size": {
                     "width": "medium",
