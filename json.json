@@ -60,7 +60,7 @@
                 "texts": {
                   "title": {
                     "text": " оммунальные платежи, св€зь, интернет",
-                    "typeface": "body1",
+                    "typeface": "body3",
                     "text_color": "default"
                   }
                 }
@@ -71,7 +71,7 @@
                   "text": "2 628",
                   "typeface": "title1",
                   "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 2
                 }
               }
             },
@@ -103,7 +103,7 @@
                 "texts": {
                   "title": {
                     "text": "Авто",
-                    "typeface": "body1",
+                    "typeface": "body3",
                     "text_color": "default"
                   }
                 }
@@ -114,7 +114,7 @@
                   "text": "1 000",
                   "typeface": "title1",
                   "text_color": "default",
-                  "max_lines": 1
+                  "max_lines": 2
                 }
               }
             }
