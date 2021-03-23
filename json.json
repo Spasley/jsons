@@ -1,124 +1,339 @@
 {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "Траты в этом месяце",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "3 628,57 ₽",
-                "typeface": "title2",
-                "text_color": "default"
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x",
-                "bottom": "6x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "2x",
-                "top": "2x",
-                "right": "2x",
-                "bottom": "2x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "tint_color": "solid_brand",
-                  "address": {
-                    "type": "local",
-                    "identificator": "house_handset"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "2x"
+                    "card": {
+                      "type": "list_card",
+                      "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                      },
+                      "cells": [
+                        {
+                          "type": "text_cell_view",
+                          "content": {
+                            "text": "Траты в этом месяце",
+                            "typeface": "body1",
+                            "text_color": "default"
+                          },
+                          "paddings": {
+                            "left": "8x",
+                            "top": "6x",
+                            "right": "8x"
+                          }
+                        },
+                        {
+                          "type": "text_cell_view",
+                          "content": {
+                            "text": "3 740 ₽",
+                            "typeface": "title2",
+                            "text_color": "default"
+                          },
+                          "paddings": {
+                            "left": "8x",
+                            "top": "6x",
+                            "right": "8x",
+                            "bottom": "6x"
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "car"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Автомобиль",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "1 000 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "basket"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Супермаркеты",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "700 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "house_handset"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Коммунальные платежи, связь, интернет",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "620 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "plane"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Путешествия",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "600 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "atm_banknote"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Выдача наличных",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "550 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "house"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Все для дома",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "420 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "tint_color": "solid_brand",
+                              "address": {
+                                "type": "local",
+                                "identificator": "heart"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "4x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Здоровье и красота",
+                                "typeface": "text1",
+                                "text_color": "default",
+                                "max_lines": 2
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "200 ₽",
+                              "typeface": "title2",
+                              "text_color": "default"
+                            }
+                          }
+                        }
+                      ]
+                    }
                   }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Коммунальные платежи, связь, интернет",
-                    "typeface": "text1",
-                    "text_color": "default",
-                    "max_lines": 2
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "2 628,57 ₽",
-                  "typeface": "title2",
-                  "text_color": "default"
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "4x",
-                "top": "4x",
-                "right": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "tint_color": "solid_brand",
-                  "address": {
-                    "type": "local",
-                    "identificator": "car"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "4x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Авто",
-                    "typeface": "text1",
-                    "text_color": "default",
-                    "max_lines": 2
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "1 000 ₽",
-                  "typeface": "title2",
-                  "text_color": "default"
-                }
-              }
-            }
-          ]
-        }
-      }
