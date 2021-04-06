@@ -1,124 +1,43 @@
 {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "Траты в этом месяце",
-                "typeface": "body1",
-                "text_color": "default"
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "7 128,57 ₽",
-                "typeface": "title2",
-                "text_color": "default"
-              },
-              "paddings": {
-                "left": "8x",
-                "top": "6x",
-                "right": "8x",
-                "bottom": "6x"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "4x",
-                "top": "4x",
-                "right": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "tint_color": "solid_brand",
-                  "address": {
-                    "type": "local",
-                    "identificator": "house_handset"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "4x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Коммунальные платежи, связь, интернет",
-                    "typeface": "text1",
-                    "text_color": "default",
-                    "max_lines": 2
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "4 628,57 ₽",
-                  "typeface": "title2",
-                  "text_color": "default"
-                }
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "4x",
-                "top": "4x",
-                "right": "4x",
-                "bottom": "4x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "tint_color": "solid_brand",
-                  "address": {
-                    "type": "local",
-                    "identificator": "car"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "4x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "Авто",
-                    "typeface": "text1",
-                    "text_color": "default",
-                    "max_lines": 2
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "2 500 ₽",
-                  "typeface": "title2",
-                  "text_color": "default"
-                }
-              }
-            }
-          ]
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "10x",
+      "left": "8x",
+      "right": "8x",
+      "bottom": "10x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Можно потратить",
+          "typeface": "headline3",
+          "text_color": "default"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "1 682 381,06 ₽",
+          "typeface": "headline1",
+          "text_color": "default"
+        },
+        "paddings": {
+          "top": "12x"
+        }
+      },
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "из 160 000 Р",
+          "typeface": "footnote1",
+          "text_color": "secondary"
+        },
+        "paddings": {
+          "top": "4x"
         }
       }
+    ]
+  }
+}
