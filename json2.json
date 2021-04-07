@@ -19,7 +19,7 @@
                 "icon": {
                   "address": {
                     "type": "local",
-                    "identificator": "car"
+                    "identificator": "card"
                   },
                   "size": {
                     "width": "medium",
@@ -33,26 +33,84 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "Автомобиль",
+                    "text": "Карты",
                     "typeface": "body1",
                     "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "140 ₽",
-                  "typeface": "body1",
-                  "text_color": "default",
+                  },
                   "subtitle": {
-                    "text": "из 140 ₽",
+                    "text": "2 карты",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "margins": {
                       "top": "1x"
                     }
                   }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "1 397 255,39 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                },
+                "margins": {
+                  "left": "2x"
+                },
+                "vertical_gravity": "center"
+              },
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "safe"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Накопления",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  },
+                  "subtitle": {
+                    "text": "2 продукта",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "65 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
                 },
                 "margins": {
                   "left": "2x"
