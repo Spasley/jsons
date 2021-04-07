@@ -2,29 +2,62 @@
         "card": {
           "type": "list_card",
           "paddings": {
-            "top": "10x",
-            "left": "8x",
-            "right": "8x",
-            "bottom": "10x"
+            "top": "4x",
+            "bottom": "4x"
           },
           "cells": [
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "",
-                "typeface": "headline3",
-                "text_color": "default"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "1 462 255,39 ₽",
-                "typeface": "headline1",
-                "text_color": "default"
-              },
+              "type": "left_right_cell_view",
               "paddings": {
-                "top": "12x"
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "car"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Автомобиль",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "140 ₽",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "subtitle": {
+                    "text": "из 140 ₽",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                },
+                "margins": {
+                  "left": "2x"
+                },
+                "vertical_gravity": "center"
               }
             }
           ]
