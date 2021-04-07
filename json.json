@@ -44,7 +44,7 @@
           "detail": {
             "text": "7 433 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
@@ -94,7 +94,7 @@
           "detail": {
             "text": "6 000 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
@@ -144,7 +144,7 @@
           "detail": {
             "text": "3 524 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
@@ -194,7 +194,7 @@
           "detail": {
             "text": "982 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
@@ -244,7 +244,7 @@
           "detail": {
             "text": "555 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
@@ -294,7 +294,7 @@
           "detail": {
             "text": "241 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
@@ -344,16 +344,12 @@
           "detail": {
             "text": "100 ₽",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "margins": {
             "left": "2x"
           },
           "vertical_gravity": "top"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
         }
       }
     ]
