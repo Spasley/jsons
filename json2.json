@@ -44,21 +44,21 @@
                 "detail": {
                   "text": "140 ₽",
                   "typeface": "body1",
-                  "text_color": "default",
-                  "info_and_icon": {
-                    "info": {
-                      "text": "из 140",
-                      "typeface": "footnote1",
-                      "text_color": "secondary",
-                      "max_lines": 1
-                    }
+                  "text_color": "default"
+                },
+                "info_and_icon": {
+                  "info": {
+                    "text": "из 140 ₽",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 1
                   }
-                },
-                "margins": {
-                  "left": "2x"
-                },
-                "vertical_gravity": "center"
-              }
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center"
             }
           ]
         }
