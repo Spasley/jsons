@@ -2,40 +2,358 @@
   "card": {
     "type": "list_card",
     "paddings": {
-      "top": "10x",
-      "left": "8x",
-      "right": "8x",
-      "bottom": "10x"
+      "top": "4x",
+      "bottom": "4x"
     },
     "cells": [
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Можно потратить",
-          "typeface": "headline3",
-          "text_color": "default"
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "necklace"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Одежда и аксессуары",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "7 433 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
         }
       },
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "1 682 381,06 ₽",
-          "typeface": "headline1",
-          "text_color": "default"
-        },
+        "type": "left_right_cell_view",
         "paddings": {
-          "top": "12x"
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "coin"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Комиссия",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "6 000 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
         }
       },
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "из 160 000 Р",
-          "typeface": "footnote1",
-          "text_color": "secondary"
-        },
+        "type": "left_right_cell_view",
         "paddings": {
-          "top": "4x"
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "bag"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Прочие расходы",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "3 524 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "star_light"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "На плов",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "982 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "heart"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Здоровье и красота",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "555 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Перевод с карты",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "241 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "candy"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Рестораны и кафе",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "100 ₽",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "margins": {
+            "left": "2x"
+          },
+          "vertical_gravity": "top"
+        },
+        "divider": {
+          "style": "default",
+          "size": "d5"
         }
       }
     ]
