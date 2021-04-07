@@ -30,7 +30,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "из 999 ₽ ₽",
+                "text": "из 999 ₽",
                 "typeface": "footnote1",
                 "text_color": "secondary"
               },
