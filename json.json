@@ -2,41 +2,123 @@
         "card": {
           "type": "list_card",
           "paddings": {
-            "top": "10x",
-            "left": "8x",
-            "right": "8x",
-            "bottom": "10x"
+            "top": "4x",
+            "bottom": "4x"
           },
           "cells": [
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "Можно потратить",
-                "typeface": "headline3",
-                "text_color": "default"
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "card"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Карты",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "2 карты",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "1 397 255,39 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
               }
             },
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "859 ₽",
-                "typeface": "headline1",
-                "text_color": "default"
-              },
+              "type": "left_right_cell_view",
               "paddings": {
-                "top": "12x"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "из 999 ₽",
-                "typeface": "footnote1",
-                "text_color": "secondary"
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
               },
-              "paddings": {
-                "top": "4x"
-              }
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "safe"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Накопления",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "1 продукт",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "50 000 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center"
             }
           ]
         }
