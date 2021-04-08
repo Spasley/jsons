@@ -11,7 +11,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "Расходы в прошлом месяце",
+                "text": "Можно потратить",
                 "typeface": "headline3",
                 "text_color": "default"
               }
@@ -19,12 +19,23 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "18 895 ₽",
+                "text": "859 ₽",
                 "typeface": "headline1",
                 "text_color": "default"
               },
               "paddings": {
-                "top": "12x"
+                "top": "6x"
+              }
+            },
+            {
+              "type": "text_cell_view",
+              "content": {
+                "text": "из 999 ₽",
+                "typeface": "footnote1",
+                "text_color": "secondary"
+              },
+              "paddings": {
+                "top": "2x"
               }
             }
           ]
