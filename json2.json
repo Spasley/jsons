@@ -19,6 +19,159 @@
                 "icon": {
                   "address": {
                     "type": "local",
+                    "identificator": "heart"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Здоровье и красота",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "2 014 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "star_light"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Кастом 1",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "1 045 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "star_light"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Кастом 2",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "908 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
                     "identificator": "car"
                   },
                   "size": {
@@ -43,17 +196,111 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "140 ₽",
+                  "text": "800 ₽",
                   "typeface": "body1",
                   "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "candy"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
                 },
-                "info_and_icon": {
-                  "info": {
-                    "text": "из 140 ₽",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "max_lines": 1
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Рестораны и кафе",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
                   }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "787 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "star_light"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Кастом 3",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "595 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
                 }
               },
               "margins": {
