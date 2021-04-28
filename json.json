@@ -39,7 +39,7 @@
                     "max_lines": 3
                   },
                   "subtitle": {
-                    "text": "6 карт",
+                    "text": "7 карт",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "margins": {
@@ -51,7 +51,7 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "9 975 526,83 ₽",
+                  "text": "9 976 526,83 ₽",
                   "typeface": "body1",
                   "text_color": "default"
                 }
