@@ -33,13 +33,13 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "Карты",
+                    "text": "Кредитная карта",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
                   },
                   "subtitle": {
-                    "text": "6 карт",
+                    "text": "1 карта",
                     "typeface": "footnote1",
                     "text_color": "secondary",
                     "margins": {
@@ -51,7 +51,66 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "9 975 526,83 ₽",
+                  "text": "345 196 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center",
+              "divider": {
+                "style": "default",
+                "size": "d5"
+              }
+            },
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "card"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Дебетовые карт",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "7 карт",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "10 321 722,83 ₽",
                   "typeface": "body1",
                   "text_color": "default"
                 }
