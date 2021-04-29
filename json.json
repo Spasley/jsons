@@ -21,7 +21,7 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "10 347 896,82 ₽",
+                    "text": "Всего средств",
                     "typeface": "headline3",
                     "text_color": "default",
                     "max_lines": 1
@@ -31,7 +31,7 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "Всего средств",
+                  "text": "10 347 896,82 ₽",
                   "typeface": "headline3",
                   "text_color": "default"
                 }
