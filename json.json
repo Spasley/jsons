@@ -33,7 +33,7 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "Кредитные карта",
+              "text": "Кредитная карта",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
@@ -92,25 +92,17 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "Дебетовые карт",
+              "text": "Дебетовые карты",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
-            },
-            "subtitle": {
-              "text": "15 карт",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
             }
           }
         },
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "20 643 445,66 ₽",
+            "text": "9 976 526,83 ₽",
             "typeface": "body1",
             "text_color": "default"
           }
