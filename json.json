@@ -9,23 +9,7 @@
           },
           "cells": [
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "",
-                "typeface": "headline3",
-                "text_color": "default"
-              }
-            },
-            {
-              "type": "text_cell_view",
-              "content": {
-                "text": "",
-                "typeface": "headline1",
-                "text_color": "default"
-              },
-              "paddings": {
-                "top": "6x"
-              }
+              "type": "text_cell_view"
             },
             {
               "type": "left_right_cell_view",
@@ -39,7 +23,7 @@
                   "title": {
                     "text": "10 347 896,82 ₽",
                     "typeface": "headline3",
-                    "text_color": "secondary",
+                    "text_color": "default",
                     "max_lines": 1
                   }
                 }
@@ -49,7 +33,7 @@
                 "detail": {
                   "text": "Всего средств",
                   "typeface": "headline3",
-                  "text_color": "secondary"
+                  "text_color": "default"
                 }
               },
               "margins": {
