@@ -1,7 +1,10 @@
 {
   "cells": [
     {
-      "type": "text_cell_view"
+      "type": "details_cell_view",
+      "details": {
+      	"type": "details_right_view"
+      }
     },
     {
       "type": "left_right_cell_view",
