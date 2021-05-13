@@ -2,9 +2,11 @@
   "cells": [
     {
       "type": "details_cell_view",
-      "details": {
-      	"type": "details_right_view"
-      }
+      "details": [
+        {
+          "type": "detail_right_view"
+        }
+      ]
     },
     {
       "type": "left_right_cell_view",
