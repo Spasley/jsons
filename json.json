@@ -1,9 +1,5 @@
 {
-  "type": "list_card",
   "cells": [
-    {
-      "type": "text_cell_view"
-    },
     {
       "type": "left_right_cell_view",
       "paddings": {
@@ -34,5 +30,6 @@
       },
       "vertical_gravity": "center"
     }
-  ]
+  ],
+  "type": "list_card"
 }
