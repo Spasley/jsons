@@ -1,35 +1,155 @@
 {
-  "cells": [
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "top": "2x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Всего",
-            "typeface": "title1",
-            "text_color": "default",
-            "max_lines": 1
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "0 ₽",
-          "typeface": "title1",
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "bottom": "10x",
+      "top": "10x",
+      "left": "8x",
+      "right": "8x"
+    },
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "СберПрайм",
+          "typeface": "headline3",
           "text_color": "default"
         }
       },
-      "margins": {
-        "left": "2x"
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Единая подписка на сервисы экосистемы Сбера со скидками и бонусами за 999 рублей в год.",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "max_lines": 0
+        },
+        "paddings": {
+          "top": "4x"
+        }
       },
-      "vertical_gravity": "center"
-    }
-  ],
-  "type": "list_card"
+      {
+        "type": "details_cell_view",
+        "paddings": {
+          "top": "12x"
+        },
+        "details": [
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "hash": "1add19855fcd158ece0fd52c7fb13750",
+                  "url": "https://cdn.sberdevices.ru/VA/images/prime/okko.png"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "right": "4x"
+                }
+              }
+            }
+          },
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "hash": "a33c4a8221c699549ba266e6e80ba2f0",
+                  "url": "https://cdn.sberdevices.ru/VA/images/prime/zvooq.png"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "right": "4x"
+                }
+              }
+            }
+          },
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "hash": "de0e835f16916e3499434a41c96c99ed",
+                  "url": "https://cdn.sberdevices.ru/VA/images/prime/sbermarket.png"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "right": "4x"
+                }
+              }
+            }
+          },
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "hash": "82187eb65832735ebe62b86fe474e22b",
+                  "url": "https://cdn.sberdevices.ru/VA/images/prime/delivery_club.png"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "right": "4x"
+                }
+              }
+            }
+          },
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "hash": "76e0bb0c519129e87d578d940a6eda66",
+                  "url": "https://cdn.sberdevices.ru/VA/images/prime/city_mobil.png"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "right": "4x"
+                }
+              }
+            }
+          },
+          {
+            "type": "detail_right_view",
+            "info_and_icon": {
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "hash": "9ed7c79e02c2c1d8861b2e1b7a34c686",
+                  "url": "https://cdn.sberdevices.ru/VA/images/prime/sber_disk.png"
+                },
+                "size": {
+                  "width": "large",
+                  "height": "large"
+                },
+                "margins": {
+                  "right": "4x"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
