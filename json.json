@@ -2,153 +2,196 @@
   "card": {
     "type": "list_card",
     "paddings": {
-      "bottom": "10x",
-      "top": "10x",
-      "left": "8x",
-      "right": "8x"
+      "top": "4x",
+      "bottom": "4x"
     },
     "cells": [
       {
-        "type": "text_cell_view",
-        "content": {
-          "text": "СберПрайм",
-          "typeface": "headline3",
-          "text_color": "default"
-        }
-      },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Единая подписка на сервисы экосистемы Сбера со скидками и бонусами за 999 рублей в год.",
-          "typeface": "footnote1",
-          "text_color": "secondary",
-          "max_lines": 0
-        },
+        "type": "left_right_cell_view",
         "paddings": {
-          "top": "4x"
-        }
-      },
-      {
-        "type": "details_cell_view",
-        "paddings": {
-          "top": "12x"
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
         },
-        "details": [
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "1add19855fcd158ece0fd52c7fb13750",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/okko.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
-            }
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
           },
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "a33c4a8221c699549ba266e6e80ba2f0",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/zvooq.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
-            }
-          },
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "de0e835f16916e3499434a41c96c99ed",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/sbermarket.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
-            }
-          },
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "82187eb65832735ebe62b86fe474e22b",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/delivery_club.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
-            }
-          },
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "76e0bb0c519129e87d578d940a6eda66",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/city_mobil.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
-              }
-            }
-          },
-          {
-            "type": "detail_right_view",
-            "info_and_icon": {
-              "icon": {
-                "address": {
-                  "type": "url",
-                  "hash": "9ed7c79e02c2c1d8861b2e1b7a34c686",
-                  "url": "https://cdn.sberdevices.ru/VA/images/prime/sber_disk.png"
-                },
-                "size": {
-                  "width": "large",
-                  "height": "large"
-                },
-                "margins": {
-                  "right": "4x"
-                }
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Дебетовые карты",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "2 карты",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
               }
             }
           }
-        ]
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "990 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": ">",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 1
+            },
+            "icon": {
+              "address": {
+                "type": "url",
+                "hash": "a33c4a8221c699549ba266e6e80ba2f0",
+                "url": "https://cdn.sberdevices.ru/VA/images/prime/zvooq.png"
+              },
+              "size": {
+                "width": "large",
+                "height": "large"
+              },
+              "margins": {
+                "right": "4x"
+              }
+            }
+          }
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "safe"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Накопления",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "22 продукта",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "366 811,31 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          }
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "card"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Кредитная карта",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "345 196 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          }
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "center"
       }
     ]
   }
