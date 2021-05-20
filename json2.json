@@ -7,169 +7,23 @@
     },
     "cells": [
       {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "card"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Дебетовые карты",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "2 карты",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "990 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
+        "type": "text_cell_view",
+        "content": {
+          "text": "20.05.2021",
+          "typeface": "headline3",
+          "text_color": "default"
         }
       },
       {
-        "type": "left_right_cell_view",
+        "type": "text_cell_view",
+        "content": {
+          "text": "сегодня",
+          "typeface": "footnote1",
+          "text_color": "secondary"
+        },
         "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "safe"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Накопления",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "22 продукта",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "366 811,31 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
+          "top": "2x"
         }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "card"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Кредитная карта",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "345 196 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center"
       }
     ]
   }
