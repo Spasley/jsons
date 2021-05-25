@@ -23,6 +23,14 @@
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Просрочен",
+                    "typeface": "footnote1",
+                    "text_color": "critical",
+                    "margins": {
+                      "top": "1x"
+                    }
                   }
                 }
               },
