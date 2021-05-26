@@ -37,7 +37,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "999.99",
+            "text": "999,99 ₽",
             "typeface": "body1",
             "text_color": "default"
           }
@@ -82,7 +82,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "138007.17",
+            "text": "138 007,17 ₽",
             "typeface": "body1",
             "text_color": "default"
           }
@@ -127,7 +127,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "27141.12",
+            "text": "27 141,12 ₽",
             "typeface": "body1",
             "text_color": "default"
           }
