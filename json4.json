@@ -1,53 +1,141 @@
 {
   "card": {
     "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x"
+    },
     "cells": [
       {
         "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
         "left": {
           "type": "simple_left_view",
-          "icon": {
-            "tint_color": "solid_brand",
-            "address": {
-              "type": "local",
-              "identificator": "other"
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Кредитка, обязательный платеж",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
             },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "left": "8x",
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x"
-            }
-          },
-          "title": {
-            "text": "Создать цель",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 1,
-            "margins": {
-              "top": "9x",
-              "bottom": "9x"
+            "subtitle": {
+              "text": "Просрочен",
+              "typeface": "footnote1",
+              "text_color": "critical",
+              "margins": {
+                "top": "1x"
+              }
             }
           }
         },
         "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
+          "type": "detail_right_view",
+          "detail": {
+            "text": "999.99",
+            "typeface": "body1",
+            "text_color": "default"
           }
         },
-        "actions": [
-          {
-            "type": "deep_link",
-            "deep_link": "sberbankonline://payments/open-goal"
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "РџСЂРёРѕР±СЂРµС‚РµРЅРёРµ СЃС‚СЂРѕСЏС‰РµРіРѕСЃСЏ Р¶РёР»СЊСЏ",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Начислен",
+              "typeface": "footnote1",
+              "text_color": "warning",
+              "margins": {
+                "top": "1x"
+              }
+            }
           }
-        ]
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "138007.17",
+            "typeface": "body1",
+            "text_color": "default"
+          }
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Ипотека",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Начислен",
+              "typeface": "footnote1",
+              "text_color": "warning",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "27141.12",
+            "typeface": "body1",
+            "text_color": "default"
+          }
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "center"
       }
     ]
   }
