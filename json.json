@@ -1,3 +1,52 @@
 {
-  "hello": "world"
-}
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "top": "4x",
+            "bottom": "4x"
+          },
+          "cells": [
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Ипотека",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "Начислен",
+                    "typeface": "footnote1",
+                    "text_color": "warning",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
+                }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "27 141,12 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "margins": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center"
+            }
+          ]
+        }
+      }
