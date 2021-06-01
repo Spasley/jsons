@@ -19,15 +19,15 @@
                 "icon_vertical_gravity": "top",
                 "texts": {
                   "title": {
-                    "text": "РџСЂРёРѕР±СЂРµС‚РµРЅРёРµ СЃС‚СЂРѕСЏС‰РµРіРѕСЃСЏ Р¶РёР»СЊСЏ",
+                    "text": "Кредитка, обязательный платеж",
                     "typeface": "body1",
                     "text_color": "default",
                     "max_lines": 3
                   },
                   "subtitle": {
-                    "text": "Просрочен",
+                    "text": "Начислен",
                     "typeface": "footnote1",
-                    "text_color": "critical",
+                    "text_color": "warning",
                     "margins": {
                       "top": "1x"
                     }
@@ -37,7 +37,7 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "138 007,17 ₽",
+                  "text": "",
                   "typeface": "body1",
                   "text_color": "default"
                 }
