@@ -25,9 +25,9 @@
                     "max_lines": 3
                   },
                   "subtitle": {
-                    "text": "Просрочен",
+                    "text": "Начислен",
                     "typeface": "footnote1",
-                    "text_color": "critical",
+                    "text_color": "warning",
                     "margins": {
                       "top": "1x"
                     }
@@ -37,7 +37,7 @@
               "right": {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "999.99",
+                  "text": "999,99 ₽",
                   "typeface": "body1",
                   "text_color": "default"
                 }
