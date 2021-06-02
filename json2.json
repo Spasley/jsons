@@ -1,59 +1,41 @@
 {
   "card": {
-    "type": "discovery_card",
-    "paddings": {
-      "top": "8x",
-      "bottom": "8x",
-      "left": "8x",
-      "right": "8x"
-    },
-    "cells": {
-      "top_cell": {
-        "type": "left_right_cell_view",
-        "left": {
-          "type": "simple_left_view",
+    "type": "title_card",
+
+    "cell":{
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "title": {
+          "text": "Новости",
+          "typeface": "body3",
+          "text_color": "default"
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "info_and_icon": {
           "icon": {
             "address": {
               "type": "local",
-              "url": "circle_cross"
+              "identificator": "ellipsis"
             },
             "size": {
-              "width": "large",
-              "height": "large"
-            }
-          }
-        }
-      },
-      "bottom_cell": {
-        "type": "left_right_cell_view",
-        "left": {
-          "type": "simple_left_view",
-          "texts": {
-            "subtitle": {
-              "text": "Платежи не загрузились",
-              "max_lines": 2,
-              "typeface": "body1",
-              "text_color": "default"
+              "width": "small",
+              "height": "small"
             },
-            "caption": {
-              "text": "Что-то пока мешает посмотреть платежи, но их можно узнать в приложении",
-              "typeface": "body1",
-              "max_lines": 2,
-              "text_color": "default"
-            }
+            "tint_color":"solid_white",
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://www.nytimes.com/"
+              }
+            ]
           }
-        }
-      }
-    },
-    "has_fade": false,
-    "width_columns": 2,
-    "aspect_ratio": "1:1",
-    "background_color": "#65808C",
-    "actions": [
-      {
-        "type": "deep_link",
-        "deep_link": "https://www.callofduty.com/mobile"
-      }
-    ]
+        },
+        "vertical_gravity": "center"
+      },
+      "log_id": "custom_log_id"
+    }
   }
 }
