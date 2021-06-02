@@ -1,301 +1,58 @@
 {
   "card": {
-    "type": "list_card",
+    "type": "discovery_card",
     "paddings": {
-      "top": "4x",
-      "bottom": "4x"
+      "top": "8x",
+      "bottom": "8x",
+      "left": "8x",
+      "right": "8x"
     },
-    "cells": [
-      {
+    "cells": {
+      "top_cell": {
         "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
         "left": {
           "type": "simple_left_view",
           "icon": {
             "address": {
-              "type": "local",
-              "identificator": "wallet"
+              "type": "url",
+              "url": "https://www.toornament.com/media/file/3019253216309166080/logo_large?v=1573925533"
             },
             "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Приобретение",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Просрочен",
-              "typeface": "footnote1",
-              "text_color": "critical",
-              "margins": {
-                "top": "1x"
-              }
+              "width": "large",
+              "height": "large"
             }
           }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "27 141,12 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
         }
       },
-      {
+      "bottom_cell": {
         "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
         "left": {
           "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "house"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
           "texts": {
-            "title": {
-              "text": "Ипотека",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
             "subtitle": {
-              "text": "До 10 июня",
-              "typeface": "footnote1",
-              "text_color": "warning",
-              "margins": {
-                "top": "1x"
-              }
+              "text": "Call of Duty: Mobile",
+              "max_lines": 2,
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "caption": {
+              "text": "Королевская битва",
+              "typeface": "body1",
+              "max_lines": 2,
+              "text_color": "secondary"
             }
           }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "27 141,12 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
         }
-      },
+      }
+    },
+    "has_fade": false,
+    "width_columns": 2,
+    "aspect_ratio": "3:4",
+    "background_color": "#65808C",
+    "actions": [
       {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "house"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Ипотека",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "До 10 июля",
-              "typeface": "footnote1",
-              "text_color": "warning",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "27 141,12 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "house"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Ипотека",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Начислен",
-              "typeface": "footnote1",
-              "text_color": "warning",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "27 141,12 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "card"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Кредитка, обязательный платеж",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Оплачен",
-              "typeface": "footnote1",
-              "text_color": "success",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "999,99 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center"
+        "type": "deep_link",
+        "deep_link": "https://www.callofduty.com/mobile"
       }
     ]
   }
