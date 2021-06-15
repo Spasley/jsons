@@ -14,25 +14,43 @@
           "text": "1 550 Р",
           "typeface": "headline3",
           "text_color": "default",
-          "max_lines": 0
+          "max_lines": 0,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x",
+            "right": "4x"
+          }
         }
       },
       {
         "type": "text_cell_view",
         "content": {
-          "text": "Это самая большая покупка за этот период, в «Перекрёсток» 12 января",
-          "typeface": "body3",
+          "text": "Это самая большая покупка за этот период, в «Перекрёсток» 12 января",
+          "typeface": "footnote1",
           "text_color": "default",
-          "max_lines": 0
+          "max_lines": 0,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x",
+            "right": "4x"
+          }
         }
       },
       {
         "type": "text_cell_view",
         "content": {
           "text": "Факт в копилку",
-          "typeface": "body3",
+          "typeface": "footnote1",
           "text_color": "secondary",
-          "max_lines": 0
+          "max_lines": 0,
+          "margins": {
+            "top": "4x",
+            "bottom": "4x",
+            "left": "4x",
+            "right": "4x"
+          }
         }
       }
     ]
