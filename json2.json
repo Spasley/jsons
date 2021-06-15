@@ -2,10 +2,10 @@
   "card": {
     "type": "list_card",
     "paddings": {
-      "top": "8x",
-      "bottom": "8x",
-      "left": "8x",
-      "right": "8x"
+      "top": "3x",
+      "bottom": "3x",
+      "left": "4x",
+      "right": "4x"
     },
     "cells": [
       {
@@ -14,13 +14,13 @@
           "text": "1 550 Р",
           "typeface": "headline3",
           "text_color": "default",
-          "max_lines": 0,
-          "margins": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "4x",
-            "right": "4x"
-          }
+          "max_lines": 0
+        },
+        "paddings": {
+          "top": "0x",
+          "bottom": "0x",
+          "left": "0x",
+          "right": "0x"
         }
       },
       {
@@ -31,11 +31,17 @@
           "text_color": "default",
           "max_lines": 0,
           "margins": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "4x",
-            "right": "4x"
+            "top": "0x",
+            "bottom": "3x",
+            "left": "0x",
+            "right": "0x"
           }
+        },
+        "paddings": {
+          "top": "0x",
+          "bottom": "1x",
+          "left": "0x",
+          "right": "0x"
         }
       },
       {
@@ -46,10 +52,10 @@
           "text_color": "secondary",
           "max_lines": 0,
           "margins": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "4x",
-            "right": "4x"
+            "top": "0x",
+            "bottom": "0x",
+            "left": "0x",
+            "right": "0x"
           }
         }
       }
