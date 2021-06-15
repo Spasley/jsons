@@ -21,7 +21,7 @@
         "type": "text_cell_view",
         "content": {
           "text": "Это самая большая покупка за этот период, в «Перекрёсток» 12 января",
-          "typeface": "body1",
+          "typeface": "footnote1",
           "text_color": "default",
           "max_lines": 0
         }
@@ -30,7 +30,7 @@
         "type": "text_cell_view",
         "content": {
           "text": "Факт в копилку",
-          "typeface": "body1",
+          "typeface": "footnote1",
           "text_color": "secondary",
           "max_lines": 0
         }
