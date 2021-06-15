@@ -15,12 +15,6 @@
           "typeface": "headline3",
           "text_color": "default",
           "max_lines": 0
-        },
-        "paddings": {
-          "top": "3x",
-          "bottom": "2x",
-          "left": "0x",
-          "right": "0x"
         }
       },
       {
@@ -30,12 +24,6 @@
           "typeface": "footnote1",
           "text_color": "default",
           "max_lines": 0
-        },
-        "paddings": {
-          "top": "0x",
-          "bottom": "2x",
-          "left": "0x",
-          "right": "0x"
         }
       },
       {
@@ -45,12 +33,6 @@
           "typeface": "footnote1",
           "text_color": "tertiary",
           "max_lines": 0
-        },
-        "paddings": {
-          "top": "0x",
-          "bottom": "4x",
-          "left": "0x",
-          "right": "0x"
         }
       }
     ]
