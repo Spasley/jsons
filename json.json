@@ -1,40 +1,236 @@
 {
-  "card": {
-    "type": "list_card",
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "1 550 Р",
-          "typeface": "headline3",
-          "text_color": "default",
-          "max_lines": 0
-        }
+  "type": "list_card",
+  "paddings": {
+    "top": "4x",
+    "bottom": "6x"
+  },
+  "cells": [
+    {
+      "type": "text_cell_view",
+      "content": {
+        "text": "Ваши кредиты",
+        "typeface": "title1",
+        "text_color": "default"
       },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Это самая большая покупка за этот период, в «Перекрёсток» 12 января",
-          "typeface": "footnote1",
-          "text_color": "default",
-          "max_lines": 0
-        }
+      "paddings": {
+        "left": "8x",
+        "top": "2x",
+        "right": "8x",
+        "bottom": "5x"
+      }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "top": "8x",
+        "left": "8x",
+        "right": "8x",
+        "bottom": "5x"
       },
-      {
-        "type": "text_cell_view",
-        "content": {
-          "text": "Факт в копилку",
-          "typeface": "footnote1",
-          "text_color": "tertiary",
-          "max_lines": 0,
-          "margins": {
-            "top": "6x",
-            "bottom": "6x",
-            "left": "6x",
-            "right": "6x"
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Какой-то текст 8",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       }
-    ]
-  }
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "8x",
+        "right": "8x",
+        "bottom": "6x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Общая сумма",
+            "typeface": "footnote1",
+            "text_color": "default",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "detail": {
+          "text": "Какой-то текст 1",
+          "typeface": "footnote1",
+          "text_color": "default"
+        },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "top"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      }
+    },
+    {
+      "paddings": {
+        "top": "6x",
+        "left": "8x",
+        "right": "8x",
+        "bottom": "6x"
+      },
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Осталось погасить",
+            "typeface": "footnote1",
+            "text_color": "default"
+          }
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "detail": {
+          "text": "Какой-то текст 2",
+          "typeface": "footnote1",
+          "text_color": "default"
+        },
+        "vertical_gravity": "top"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      }
+    },
+    {
+      "paddings": {
+        "top": "6x",
+        "left": "8x",
+        "right": "8x",
+        "bottom": "6x"
+      },
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Платёж по графику",
+            "typeface": "footnote1",
+            "text_color": "default"
+          }
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "detail": {
+          "text": "Какой-то текст 3",
+          "typeface": "footnote1",
+          "text_color": "default"
+        },
+        "vertical_gravity": "top"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      }
+    },
+    {
+      "paddings": {
+        "top": "6x",
+        "left": "8x",
+        "right": "8x",
+        "bottom": "6x"
+      },
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Платёж по графику",
+            "typeface": "footnote1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "Какой-то текст 4",
+            "typeface": "footnote1",
+            "text_color": "secondary"
+          }
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "detail": {
+          "text": "Какой-то текст 5",
+          "typeface": "footnote1",
+          "text_color": "default"
+        },
+        "vertical_gravity": "top"
+      },
+      "divider": {
+        "style": "default",
+        "size": "d3"
+      }
+    },
+    {
+      "paddings": {
+        "top": "6x",
+        "left": "8x",
+        "right": "8x"
+      },
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "Минимальный досрочный",
+            "typeface": "footnote1",
+            "text_color": "default"
+          }
+        }
+      },
+      "right": {
+        "type": "detail_right_view",
+        "detail": {
+          "text": "Какой-то текст 6",
+          "typeface": "footnote1",
+          "text_color": "default"
+        },
+        "vertical_gravity": "top"
+      }
+    },
+    {
+      "paddings": {
+        "left": "8x",
+        "right": "8x",
+        "bottom": "6x"
+      },
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "texts": {
+          "title": {
+            "text": "платёж",
+            "typeface": "footnote1",
+            "text_color": "default"
+          },
+          "subtitle": {
+            "text": "через приложение",
+            "typeface": "footnote1",
+            "text_color": "secondary"
+          },
+          "margins": {
+            "top": "1x"
+          }
+        }
+      }
+    }
+  ]
 }
