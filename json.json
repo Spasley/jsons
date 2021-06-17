@@ -1,6 +1,12 @@
 {
   "card": {
     "type": "list_card",
+    "paddings": {
+      "top": "6x",
+      "bottom": "6x",
+      "left": "6x",
+      "right": "6x"
+    }
     "cells": [
       {
         "type": "text_cell_view",
