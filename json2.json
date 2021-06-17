@@ -3,9 +3,7 @@
     "type": "list_card",
     "paddings": {
       "top": "4x",
-      "bottom": "4x",
-      "left": "4x",
-      "right": "4x"
+      "bottom": "4x"
     },
     "cells": [
       {
