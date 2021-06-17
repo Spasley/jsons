@@ -2,10 +2,7 @@
   "card": {
     "type": "list_card",
     "paddings": {
-      "top": "0x",
-      "bottom": "0x",
-      "left": "4x",
-      "right": "4x"
+      "bottom": "4x"
     },
     "cells": [
       {
@@ -15,15 +12,27 @@
           "typeface": "headline3",
           "text_color": "default",
           "max_lines": 0
-        }
+        },
+        "paddings": {
+            "top": "6x",
+            "bottom": "6x",
+            "left": "6x",
+            "right": "6x"
+          }
       },
       {
         "type": "text_cell_view",
         "content": {
-          "text": "Это самая большая покупка за этот период, в «Перекрёсток» 12 января",
+          "text": "Это самая большая покупка за этот период, в «Перекрёсток» 12 января",
           "typeface": "footnote1",
           "text_color": "default",
-          "max_lines": 0
+          "max_lines": 0,
+          "margins": {
+            "top": "6x",
+            "bottom": "6x",
+            "left": "6x",
+            "right": "6x"
+          }
         }
       },
       {
@@ -32,7 +41,13 @@
           "text": "Факт в копилку",
           "typeface": "footnote1",
           "text_color": "tertiary",
-          "max_lines": 0
+          "max_lines": 0,
+          "margins": {
+            "top": "6x",
+            "bottom": "6x",
+            "left": "6x",
+            "right": "6x"
+          }
         }
       }
     ]
