@@ -4,39 +4,74 @@
           "paddings": {
             "top": "4x",
             "bottom": "4x",
-            "left": "4x",
-            "right": "4x"
+            "left": "4x"
           },
           "cells": [
             {
               "type": "text_cell_view",
+              "paddings": {
+                "left": "8x"
+              },
               "content": {
-                "text": "Самая частая категория за этот период — «Прочие расходы», целых 7 покупок",
-                "typeface": "footnote1",
-                "text_color": "default",
-                "max_lines": 0,
-                "margins": {
-                  "top": "2x",
-                  "bottom": "2x",
-                  "left": "2x",
-                  "right": "2x"
-                }
+                "text": "Ближайшие платежи",
+                "typeface": "headline3",
+                "text_color": "default"
               }
             },
             {
-              "type": "text_cell_view",
-              "content": {
-                "text": "Интересный факт",
-                "typeface": "footnote1",
-                "text_color": "tertiary",
-                "max_lines": 0,
-                "margins": {
-                  "top": "2x",
-                  "bottom": "2x",
-                  "left": "2x",
-                  "right": "2x"
+              "type": "left_right_cell_view",
+              "paddings": {
+                "left": "8x",
+                "top": "8x",
+                "right": "8x",
+                "bottom": "8x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "local",
+                    "identificator": "card"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "6x"
+                  },
+                  "tint_color": "solid_brand"
+                },
+                "icon_vertical_gravity": "top",
+                "texts": {
+                  "title": {
+                    "text": "Кредитка, обязательный платеж",
+                    "typeface": "body1",
+                    "text_color": "default",
+                    "max_lines": 3
+                  },
+                  "subtitle": {
+                    "text": "До 23 июня",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "margins": {
+                      "top": "1x"
+                    }
+                  }
                 }
-              }
+              },
+              "right": {
+                "type": "detail_right_view",
+                "detail": {
+                  "text": "0,45 ₽",
+                  "typeface": "body1",
+                  "text_color": "default"
+                }
+              },
+              "paddings": {
+                "left": "2x"
+              },
+              "vertical_gravity": "center"
             }
           ]
         }
