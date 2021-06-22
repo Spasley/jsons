@@ -63,13 +63,13 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "170 128,06 ₽",
+            "text": "170 128,06 ₽",
             "typeface": "body1",
             "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
           }
-        },
-        "margins": {
-          "left": "2x"
         },
         "vertical_gravity": "center",
         "divider": {
@@ -122,15 +122,15 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "3 198,72 ₽",
+            "text": "3 198,72 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
           "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "center"
+            "left": "4x"
+          }
         },
+        "vertical_gravity": "center",
         "divider": {
           "style": "default",
           "size": "d5"
@@ -181,12 +181,12 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "2 841,50 ₽",
+            "text": "2 841,50 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
           "margins": {
-            "left": "2x"
+            "left": "4x"
           }
         },
         "vertical_gravity": "center"
