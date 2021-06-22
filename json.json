@@ -66,12 +66,12 @@
                   "text": "0,45 ₽",
                   "typeface": "body1",
                   "text_color": "default"
-                }
-              },
-              "paddings": {
-                "left": "2x"
-              },
-              "vertical_gravity": "center"
+                },
+                "margins": {
+                  "left": "2x"
+                },
+                "vertical_gravity": "center"
+              }
             }
           ]
         }
