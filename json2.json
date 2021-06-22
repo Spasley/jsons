@@ -2,7 +2,7 @@
         "card": {
           "type": "list_card",
           "paddings": {
-            "top": "4x",
+            "top": "8x",
             "bottom": "4x",
             "left": "4x",
             "right": "4x"
@@ -11,7 +11,7 @@
             {
               "type": "text_cell_view",
               "content": {
-                "text": "Самые крупные платежи:\n«Caviar House Airport P Frankfurt Deu» — 12 595 ₽\n«Caviar House» — 12 595 ₽\n, «Caviar House Airport» — 12 595 ₽",
+                "text": "Самая частая категория за этот период — «Прочие расходы», целых 7 покупок",
                 "typeface": "footnote1",
                 "text_color": "default",
                 "max_lines": 0,
