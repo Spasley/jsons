@@ -1,196 +1,63 @@
 {
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "4x",
-      "bottom": "4x",
-      "left": "4x"
-    },
-    "cells": [
-      {
-        "type": "text_cell_view",
-        "paddings": {
-          "left": "8x"
-        },
-        "content": {
-          "text": "Ближайшие платежи",
-          "typeface": "headline3",
-          "text_color": "default"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "house"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Ипотека",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Просрочен",
-              "typeface": "footnote1",
-              "text_color": "critical",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "170 128,06 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "card"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Кредитка, обязательный платеж",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "До 7 декабря",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "3 198,72 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "center"
-        },
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "wallet"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Потребительский кредит",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            },
-            "subtitle": {
-              "text": "Начислен",
-              "typeface": "footnote1",
-              "text_color": "secondary",
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "2 841,50 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-          }
-        },
-        "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "center"
-      }
-    ]
-  }
-}
+                    "card": {
+                      "type": "list_card",
+                      "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                      },
+                      "cells": [
+                        {
+                          "type": "text_cell_view",
+                          "paddings": {
+                            "left": "8x"
+                          },
+                          "content": {
+                            "text": "Ближайшие платежи",
+                            "typeface": "headline3",
+                            "text_color": "default"
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "8x",
+                            "top": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon_vertical_gravity": "top",
+                            "texts": {
+                              "title": {
+                                "text": "Ипотека",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 3
+                              },
+                              "subtitle": {
+                                "text": "До 10 июня",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "top": "1x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "27 141,12 ₽",
+                              "typeface": "body1",
+                              "text_color": "default"
+                            },
+                          "margins": {
+                            "left": "4x"
+                          }
+                          },
+                          "vertical_gravity": "center"
+                        }
+                      ]
+                    }
+                  }
