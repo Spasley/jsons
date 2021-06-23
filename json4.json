@@ -1,78 +1,66 @@
 {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "top": "4x",
-            "bottom": "4x",
-            "left": "4x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "paddings": {
-                "left": "8x"
-              },
-              "content": {
-                "text": "Ближайшие платежи",
-                "typeface": "headline3",
-                "text_color": "default"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "left": "8x",
-                "top": "8x",
-                "right": "8x",
-                "bottom": "8x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "local",
-                    "identificator": "card"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "6x"
-                  },
-                  "tint_color": "solid_brand"
-                },
-                "icon_vertical_gravity": "top",
-                "texts": {
-                  "title": {
-                    "text": "Кредитка, обязательный платеж",
-                    "typeface": "body1",
-                    "text_color": "default",
-                    "max_lines": 3
-                  },
-                  "subtitle": {
-                    "text": "До 23 июня",
-                    "typeface": "footnote1",
-                    "text_color": "secondary",
-                    "margins": {
-                      "top": "1x"
+                    "card": {
+                      "type": "list_card",
+                      "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                      },
+                      "cells": [
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
+                            "left": "8x",
+                            "top": "8x",
+                            "right": "8x",
+                            "bottom": "8x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "local",
+                                "identificator": "car"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "6x"
+                              },
+                              "tint_color": "solid_brand"
+                            },
+                            "icon_vertical_gravity": "top",
+                            "texts": {
+                              "title": {
+                                "text": "Автомобиль",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 3
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "999 ₽",
+                              "typeface": "body1",
+                              "text_color": "default"
+                            },
+                            "margins": {
+                              "left": "4x"
+                            },
+                            "info_and_icon": {
+                              "info": {
+                                "text": "из 999 ₽",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 1
+                              }
+                            }
+                          },
+                          "vertical_gravity": "center"
+                        }
+                      ]
                     }
                   }
-                }
-              },
-              "right": {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "0,45 ₽",
-                  "typeface": "body1",
-                  "text_color": "default"
-                },
-                "margins": {
-                  "left": "4x"
-                },
-                "vertical_gravity": "center"
-              }
-            }
-          ]
-        }
-      }
