@@ -1,66 +1,691 @@
 {
-                    "card": {
-                      "type": "list_card",
-                      "paddings": {
-                        "top": "4x",
-                        "bottom": "4x"
-                      },
-                      "cells": [
-                        {
-                          "type": "left_right_cell_view",
-                          "paddings": {
-                            "left": "8x",
-                            "top": "8x",
-                            "right": "8x",
-                            "bottom": "8x"
-                          },
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "local",
-                                "identificator": "car"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "right": "6x"
-                              },
-                              "tint_color": "solid_brand"
-                            },
-                            "icon_vertical_gravity": "top",
-                            "texts": {
-                              "title": {
-                                "text": "Автомобиль",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "max_lines": 3
-                              }
-                            }
-                          },
-                          "right": {
-                            "type": "detail_right_view",
-                            "detail": {
-                              "text": "999 ₽",
-                              "typeface": "body1",
-                              "text_color": "default"
-                            },
-                            "margins": {
-                              "left": "4x"
-                            },
-                            "info_and_icon": {
-                              "info": {
-                                "text": "из 999 ₽",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 1
-                              }
-                            }
-                          },
-                          "vertical_gravity": "center"
-                        }
-                      ]
-                    }
-                  }
+  "listDo": {
+    "cards": [
+      {
+        "id": 367289,
+        "name": "Visa Classic",
+        "smsName": "2160",
+        "description": "Visa Classic",
+        "number": "4276 38** **** 2160",
+        "isMain": true,
+        "type": "debit",
+        "availableLimit": {
+          "amount": "109306.70",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "state": "active",
+        "cardAccount": "40817810238260153820",
+        "showarrestdetail": true,
+        "tokenExists": false,
+        "tokenLists": [],
+        "expireDate": "2024-04-01T00:00:00",
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "options": {
+          "setPINAvailable": true,
+          "activationAvailable": false,
+          "setPayrollAvailable": true,
+          "closeCardAvailable": false,
+          "isMultiCurrency": false,
+          "multiCurrencyCardAvailable": false,
+          "activationAvailableUfs": false
+        }
+      },
+      {
+        "id": 368002,
+        "name": "Visa Gold",
+        "smsName": "9724",
+        "description": "Visa Gold",
+        "number": "4279 01** **** 9724",
+        "isMain": true,
+        "type": "credit",
+        "availableLimit": {
+          "amount": "12333.34",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "state": "active",
+        "cardAccount": "40817810740033161826",
+        "showarrestdetail": true,
+        "tokenExists": false,
+        "tokenLists": [],
+        "expireDate": "2023-04-01T00:00:00",
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "options": {
+          "setPINAvailable": true,
+          "activationAvailable": false,
+          "setPayrollAvailable": false,
+          "closeCardAvailable": false,
+          "isMultiCurrency": false,
+          "multiCurrencyCardAvailable": false,
+          "activationAvailableUfs": false
+        }
+      }
+    ],
+    "loans": [
+      {
+        "id": 33884,
+        "name": "Потребительский кредит",
+        "smsName": "5446",
+        "amount": {
+          "amount": "260000.00",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayAmount": {
+          "amount": "9829.84",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "2021-07-10T00:00:00",
+        "state": "undefined"
+      },
+      {
+        "id": 33883,
+        "name": "Приобретение готового жилья",
+        "smsName": "0625",
+        "amount": {
+          "amount": "3200000.00",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayAmount": {
+          "amount": "54282.24",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "2021-07-10T00:00:00",
+        "state": "undefined"
+      },
+      {
+        "id": 33885,
+        "name": "Потребительский кредит",
+        "smsName": "8180",
+        "amount": {
+          "amount": "96000.00",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayAmount": {
+          "amount": "5076.14",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "2021-08-01T00:00:00",
+        "state": "undefined"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "status": {
+        "code": 0
+      },
+      "detail": {
+        "creditType": {
+          "limit": {
+            "amount": "30000.00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "ownSum": {
+            "amount": "-17666.66",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "minPayment": {
+            "amount": "-2052.07",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "minPaymentDate": "2021-07-12T00:00:00",
+          "debtInfoResult": {
+            "statusCode": 0,
+            "debtInfo": {
+              "openDate": "2021-04-22T00:00:00",
+              "ovdAmount": {
+                "amount": "1492.30",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "lastBillingDate": "2021-06-21T00:00:00",
+              "mandPaymOnReport": {
+                "amount": "2052.07",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "mandatoryPaymentPAN": {
+                "amount": "2075.62",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "totalOnReport": {
+                "amount": "18218.73",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "debt": {
+                "amount": "18242.28",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "totalTomorrow": {
+                "amount": "18243.75",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "totalDayAfterTomorrow": {
+                "amount": "18245.22",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "blockedCache": {
+                "amount": "0.00",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              },
+              "totalReportToday": {
+                "amount": "18242.28",
+                "currency": {
+                  "code": "RUR",
+                  "name": "руб."
+                }
+              }
+            }
+          }
+        },
+        "holderName": "ТЕСТ ВЯЧЕСЛАВОВНА Б.",
+        "availableCashLimit": {
+          "amount": "12333.34",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "purchaseLimit": {
+          "amount": "12333.34",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "officeName": "Доп.офис №9040/01701",
+        "accountNumber": "40817810740033161826",
+        "expireDate": "04/2023",
+        "name": "Visa Gold",
+        "cardAccount": "40817810740033161826",
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "tariffInfo": {
+          "parameters": []
+        },
+        "operations": {
+          "changePaymentDate": false,
+          "changeCreditLimit": true,
+          "decreaseRateForCategoryOperations": false,
+          "cashWithdrawalTransferFree": false,
+          "changeGracePeriod": false,
+          "changeCardProduct": false,
+          "closeCreditCard": false,
+          "activateCardUfs": false
+        }
+      }
+    }
+  ],
+  "loans": [
+    {
+      "status": {
+        "code": 0
+      },
+      "detail": {
+        "description": "Потребительский кредит",
+        "repaymentMethod": "аннуитетный",
+        "termStart": "10.01.2019T00:00:00",
+        "termDuration": "5-0-0",
+        "termEnd": "10.01.2024T00:00:00",
+        "borrowerFullName": "ТЕСТ ВЯЧЕСЛАВОВНА Б.",
+        "agreementNumber": "137136263",
+        "accountNumber": "45507810500020105446",
+        "personRole": "заемщик/созаемщик",
+        "remainAmount": {
+          "amount": "130773.62",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayAmount": {
+          "amount": "9829.84",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "10.07.2021T00:00:00",
+        "balanceAmount": {
+          "amount": "130773.62",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "address": "117997, г Москва, УЛ.ВАВИЛОВА, 19",
+        "name": "Потребительский кредит"
+      },
+      "extDetail": {
+        "kind": "\n АННУИТЕТНЫЙ",
+        "fullName": "Потребительский кредит",
+        "rate": "15.80",
+        "type": "Потребительский кредит",
+        "termEnd": "10.01.2024T00:00:00",
+        "origianlAmount": {
+          "amount": "260000.00",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "remainAmount": {
+          "amount": "130773.62",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayment": {
+          "nextPayDate": "10.07.2021T00:00:00",
+          "nextPaymentAmount": {
+            "amount": "9829.84",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "infoText": "\n Ближайший платёж 10 июля, 9 829,84 руб."
+        },
+        "currentPayment": {
+          "currentPayDate": "10.07.2021T00:00:00",
+          "nextPaymentAmount": {
+            "amount": "9829.84",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "mainDeptAmount": {
+            "amount": "6501.90",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "interestsAmount": {
+            "amount": "3327.94",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "repaymentAmount": {
+            "amount": "109306.70",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          }
+        },
+        "loanInfo": {
+          "origianlAmount": {
+            "amount": "260000.00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "remainAmount": {
+            "amount": "130773.62",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "mainDeptAmount": {
+            "amount": "127607.24",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "interestPaymentAmount": {
+            "amount": "3166.38",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "creditingRate": "15.80",
+          "termStart": "10.01.2019T00:00:00",
+          "termEnd": "10.01.2024T00:00:00",
+          "agreementNumber": "137136263",
+          "accountNumber": "45507810500020105446",
+          "repaymentMethod": "аннуитетный",
+          "agencyAddress": "117997, г Москва, УЛ.ВАВИЛОВА, 19",
+          "borrower": "ТЕСТ ВЯЧЕСЛАВОВНА Б."
+        }
+      }
+    },
+    {
+      "status": {
+        "code": 0
+      },
+      "detail": {
+        "description": "Приобретение готового жилья",
+        "repaymentMethod": "аннуитетный",
+        "termStart": "10.01.2019T00:00:00",
+        "termDuration": "30-0-0",
+        "termEnd": "10.01.2049T00:00:00",
+        "borrowerFullName": "ТЕСТ ВЯЧЕСЛАВОВНА Б.",
+        "agreementNumber": "93679022",
+        "accountNumber": "45507810300020210625",
+        "personRole": "заемщик/созаемщик",
+        "remainAmount": {
+          "amount": "3198381.99",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayAmount": {
+          "amount": "54282.24",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "10.07.2021T00:00:00",
+        "balanceAmount": {
+          "amount": "3198381.99",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "address": "117997, г Москва, УЛ.ВАВИЛОВА, 19",
+        "name": "Приобретение готового жилья"
+      },
+      "extDetail": {
+        "kind": "\n АННУИТЕТНЫЙ",
+        "fullName": "Приобретение готового жилья",
+        "rate": "9.60",
+        "type": "Приобретение готового жилья",
+        "termEnd": "10.01.2049T00:00:00",
+        "origianlAmount": {
+          "amount": "3200000.00",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "remainAmount": {
+          "amount": "3198381.99",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayment": {
+          "nextPayDate": "10.07.2021T00:00:00",
+          "nextPaymentAmount": {
+            "amount": "54282.24",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "infoText": "\n Ближайший платёж 10 июля, 54 282,24 руб."
+        },
+        "currentPayment": {
+          "currentPayDate": "10.07.2021T00:00:00",
+          "nextPaymentAmount": {
+            "amount": "54282.24",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "mainDeptAmount": {
+            "amount": "3750.44",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "interestsAmount": {
+            "amount": "50531.80",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "repaymentAmount": {
+            "amount": "109306.70",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          }
+        },
+        "loanInfo": {
+          "origianlAmount": {
+            "amount": "3200000.00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "remainAmount": {
+            "amount": "3198381.99",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "mainDeptAmount": {
+            "amount": "3150324.44",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "interestPaymentAmount": {
+            "amount": "48057.55",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "creditingRate": "9.60",
+          "termStart": "10.01.2019T00:00:00",
+          "termEnd": "10.01.2049T00:00:00",
+          "agreementNumber": "93679022",
+          "accountNumber": "45507810300020210625",
+          "repaymentMethod": "аннуитетный",
+          "agencyAddress": "117997, г Москва, УЛ.ВАВИЛОВА, 19",
+          "borrower": "ТЕСТ ВЯЧЕСЛАВОВНА Б.",
+          "coBorrower": "ГОРАЦИЙ ВЛАДИСЛАВОВИЧ К."
+        }
+      }
+    },
+    {
+      "status": {
+        "code": 0
+      },
+      "detail": {
+        "description": "Потребительский кредит",
+        "repaymentMethod": "аннуитетный",
+        "termStart": "01.02.2019T00:00:00",
+        "termDuration": "5-0-0",
+        "termEnd": "01.02.2024T00:00:00",
+        "borrowerFullName": "ТЕСТ ВЯЧЕСЛАВОВНА Б.",
+        "agreementNumber": "92595652",
+        "accountNumber": "45507810000020178180",
+        "personRole": "заемщик/созаемщик",
+        "remainAmount": {
+          "amount": "63973.83",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayAmount": {
+          "amount": "5076.14",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "01.08.2021T00:00:00",
+        "balanceAmount": {
+          "amount": "63973.83",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "address": "117997, г Москва, УЛ.ВАВИЛОВА, 19",
+        "name": "Потребительский кредит"
+      },
+      "extDetail": {
+        "kind": "\n АННУИТЕТНЫЙ",
+        "fullName": "Потребительский кредит",
+        "rate": "19.90",
+        "type": "Потребительский кредит",
+        "termEnd": "01.02.2024T00:00:00",
+        "origianlAmount": {
+          "amount": "96000.00",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "remainAmount": {
+          "amount": "63973.83",
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayment": {
+          "nextPayDate": "01.08.2021T00:00:00",
+          "nextPaymentAmount": {
+            "amount": "5076.14",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "infoText": "\n Ближайший платёж 01 августа, 5 076,14 руб.. Не хватает 5 076,14 руб. для оплаты."
+        },
+        "currentPayment": {
+          "currentPayDate": "01.08.2021T00:00:00",
+          "nextPaymentAmount": {
+            "amount": "5076.14",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "mainDeptAmount": {
+            "amount": "3022.79",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "interestsAmount": {
+            "amount": "2053.35",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          }
+        },
+        "loanInfo": {
+          "origianlAmount": {
+            "amount": "96000.00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "remainAmount": {
+            "amount": "63973.83",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "mainDeptAmount": {
+            "amount": "62511.29",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "interestPaymentAmount": {
+            "amount": "1462.54",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "creditingRate": "19.90",
+          "termStart": "01.02.2019T00:00:00",
+          "termEnd": "01.02.2024T00:00:00",
+          "agreementNumber": "92595652",
+          "accountNumber": "45507810000020178180",
+          "repaymentMethod": "аннуитетный",
+          "agencyAddress": "117997, г Москва, УЛ.ВАВИЛОВА, 19",
+          "borrower": "ТЕСТ ВЯЧЕСЛАВОВНА Б."
+        }
+      }
+    }
+  ]
+}
