@@ -1,261 +1,377 @@
 {
-  "type": "list_card",
-  "paddings": {
-    "top": "4x",
-    "bottom": "4x",
-    "left": "4x"
-  },
-  "cells": [
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "bag"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Прочие расходы",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "60 000 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x",
+      "left": "4x"
     },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "necklace"
+    "cells": [
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "star_light"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand"
           },
-          "size": {
-            "width": "medium",
-            "height": "medium"
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Все операции",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "",
+            "typeface": "body1",
+            "text_color": "default"
           },
           "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Одежда и аксессуары",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
+            "left": "4x"
           }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "33 333 ₽",
-          "typeface": "body1",
-          "text_color": "default"
         },
-        "margins": {
-          "left": "4x"
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
         }
       },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Caviar House Airport P Frankfurt Deu",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Рестораны и кафе",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-25 000 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "24 июня",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Caviar House Airport P Frankfurt Deu",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Рестораны и кафе",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-100 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "23 июня",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Caviar House Airport P Frankfurt Deu",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Рестораны и кафе",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-100 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "23 июня",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Caviar House Airport P Frankfurt Deu",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Рестораны и кафе",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-100 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "23 июня",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Caviar House Airport P Frankfurt Deu",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Рестораны и кафе",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-100 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "23 июня",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Caviar House Airport P Frankfurt Deu",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "Рестораны и кафе",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "-100 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "23 июня",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center"
       }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "candy"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Рестораны и кафе",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "14 806 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "car"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Автомобиль",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "6 194 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "coin"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Комиссия",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "60 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        }
-      },
-      "vertical_gravity": "center"
-    }
-  ]
+    ]
+  }
 }
