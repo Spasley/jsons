@@ -97,7 +97,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-25 000 ₽",
+            "text": "+25 000 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -150,7 +150,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "+100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -203,7 +203,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -256,7 +256,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -309,7 +309,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -362,7 +362,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -378,6 +378,44 @@
             }
           }
         },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Ещё 44 операции",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "https://www.google.com/"
+          }
+        ],
         "vertical_gravity": "center"
       }
     ]
