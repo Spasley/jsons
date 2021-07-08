@@ -20,7 +20,7 @@
           "icon": {
             "address": {
               "type": "local",
-              "identificator": "star_light"
+              "identificator": "bag"
             },
             "size": {
               "width": "medium",
@@ -38,6 +38,14 @@
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
+            },
+            "subtitle": {
+              "text": "С июня по июль",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
             }
           }
         },
@@ -89,7 +97,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-25 000 ₽",
+            "text": "+25 000 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -142,7 +150,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "+100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -195,7 +203,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -248,7 +256,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -301,7 +309,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -354,7 +362,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "-100 ₽",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
