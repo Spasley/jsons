@@ -46,7 +46,7 @@
       "right": {
         "type": "detail_right_view",
         "detail": {
-          "text": "",
+          "text": "привет",
           "typeface": "body1",
           "text_color": "default"
         },
