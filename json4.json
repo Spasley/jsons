@@ -28,8 +28,7 @@
             },
             "margins": {
               "right": "6x"
-            },
-            "tint_color": "solid_brand"
+            }
           },
           "icon_vertical_gravity": "top",
           "texts": {
@@ -79,8 +78,7 @@
             },
             "margins": {
               "right": "6x"
-            },
-            "tint_color": "solid_brand"
+            }
           },
           "icon_vertical_gravity": "top",
           "texts": {
@@ -130,8 +128,7 @@
             },
             "margins": {
               "right": "6x"
-            },
-            "tint_color": "solid_brand"
+            }
           },
           "icon_vertical_gravity": "top",
           "texts": {
