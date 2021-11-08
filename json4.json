@@ -1,158 +1,58 @@
 {
-  "card": {
-    "type": "list_card",
-    "paddings": {
-      "top": "4x",
-      "bottom": "4x",
-      "left": "4x"
-    },
-    "cells": [
-      {
-        "type": "left_right_cell_view",
+      "card": {
+        "type": "list_card",
         "paddings": {
-          "left": "8x",
           "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
+          "bottom": "4x",
+          "left": "4x",
+          "right": "4x"
         },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "candy"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            }
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Рестораны и кафе",
-              "typeface": "body1",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "",
+              "typeface": "headline3",
               "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "100\xa0₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "photo"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
+              "max_lines": 0,
+              "margins": {
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
+              }
             }
           },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Искусство",
-              "typeface": "body1",
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "None",
+              "typeface": "footnote1",
               "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "100\xa0₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "star_light"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
+              "max_lines": 0,
+              "margins": {
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
+              }
             }
           },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "Кастом 1",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "\u0418\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0439 \u0444\u0430\u043a\u0442",
+              "typeface": "footnote1",
+              "text_color": "tertiary",
+              "max_lines": 0,
+              "margins": {
+                "top": "2x",
+                "bottom": "2x",
+                "left": "2x",
+                "right": "2x"
+              }
             }
           }
-        },
-        "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "100\xa0₽",
-            "typeface": "body1",
-            "text_color": "default"
-          },
-          "margins": {
-            "left": "4x"
-          }
-        },
-        "vertical_gravity": "center"
+        ]
       }
-    ]
-  }
-}
+    }
