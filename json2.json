@@ -1,427 +1,124 @@
 {
-  "type": "list_card",
-  "cells": [
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "bag"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "16 операций",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "В августе",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Caviar House Airport P Frankfurt Deu",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Рестораны и кафе",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "100 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "4x",
+          "bottom": "4x",
           "left": "4x"
         },
-        "info_and_icon": {
-          "info": {
-            "text": "25 августа",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Caviar House Airport P Frankfurt Deu",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Рестораны и кафе",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
+        "cells": [
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "candy"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b \u0438 \u043a\u0430\u0444\u0435",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "700\u00a0\u20bd",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "text": "\u0421\u0430\u043c\u044b\u0435 \u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 \u0432 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b \u0438 \u043a\u0430\u0444\u0435 \u0437\u0430 5 \u043c\u0435\u0441\u044f\u0446\u0435\u0432",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center",
+            "divider": {
+              "style": "default",
+              "size": "d5"
             }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "left": "8x",
+              "top": "8x",
+              "right": "8x",
+              "bottom": "8x"
+            },
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "local",
+                  "identificator": "coin"
+                },
+                "size": {
+                  "width": "medium",
+                  "height": "medium"
+                },
+                "margins": {
+                  "right": "6x"
+                },
+                "tint_color": "solid_brand"
+              },
+              "icon_vertical_gravity": "top",
+              "texts": {
+                "title": {
+                  "text": "\u041a\u043e\u043c\u0438\u0441\u0441\u0438\u044f",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 3
+                }
+              }
+            },
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "60\u00a0\u20bd",
+                "typeface": "body1",
+                "text_color": "default"
+              },
+              "margins": {
+                "left": "4x"
+              }
+            },
+            "actions": [
+              {
+                "text": "\u0421\u0430\u043c\u044b\u0435 \u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 \u0432 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u044f \u0437\u0430 5 \u043c\u0435\u0441\u044f\u0446\u0435\u0432",
+                "type": "text",
+                "should_send_to_backend": true
+              }
+            ],
+            "vertical_gravity": "center"
           }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "100 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        },
-        "info_and_icon": {
-          "info": {
-            "text": "25 августа",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
+        ]
       }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Caviar House Airport P Frankfurt Deu",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Рестораны и кафе",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "100 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        },
-        "info_and_icon": {
-          "info": {
-            "text": "25 августа",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Caviar House Airport P Frankfurt Deu",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Все для дома",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "100 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        },
-        "info_and_icon": {
-          "info": {
-            "text": "25 августа",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Caviar House Airport P Frankfurt Deu",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Автомобиль",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "100 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        },
-        "info_and_icon": {
-          "info": {
-            "text": "25 августа",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Caviar House Airport P Frankfurt Deu",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          },
-          "subtitle": {
-            "text": "Рестораны и кафе",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "100 ₽",
-          "typeface": "body1",
-          "text_color": "default"
-        },
-        "margins": {
-          "left": "4x"
-        },
-        "info_and_icon": {
-          "info": {
-            "text": "24 августа",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "max_lines": 1
-          }
-        }
-      },
-      "vertical_gravity": "center",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "8x",
-        "top": "8x",
-        "right": "8x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "list"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "right": "6x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "top",
-        "texts": {
-          "title": {
-            "text": "Загрузить еще",
-            "typeface": "body1",
-            "text_color": "default",
-            "max_lines": 3
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "right": "5x"
-        }
-      },
-      "actions": [
-        {
-          "type": "server_action",
-          "message_name": "SERVER_ACTION",
-          "server_action": {
-            "action_id": "get_operations_more"
-          }
-        },
-        {
-          "text": "Показать больше операций",
-          "type": "text",
-          "should_send_to_backend": false
-        }
-      ],
-      "vertical_gravity": "center"
     }
-  ]
-}
