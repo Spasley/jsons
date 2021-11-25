@@ -28,14 +28,20 @@
         },
         "left": {
           "type": "simple_left_view",
-          "image": {
-            "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/dbda7191-6923-4ea1-8539-60a32437b67e.png",
-            "size": {
-              "width": "small",
-              "aspect_ratio": 0.5
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/7bb07c13-b8c5-436e-b416-bde30f3a7188.png"
             },
-            "scale_mode": "scale_aspect_fill",
-            "height": 44
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
           },
           "icon_vertical_gravity": "top",
           "texts": {
