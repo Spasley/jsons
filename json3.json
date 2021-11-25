@@ -1,43 +1,518 @@
 {
-      "card": {
-        "type": "list_card",
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "top": "4x",
+      "bottom": "4x",
+      "left": "4x"
+    },
+    "cells": [
+      {
+        "type": "left_right_cell_view",
         "paddings": {
+          "left": "8x",
           "top": "8x",
-          "bottom": "4x",
-          "left": "4x",
-          "right": "4x"
+          "right": "8x",
+          "bottom": "8x"
         },
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "\u0412\u00a0\u043b\u044e\u0431\u0438\u043c\u0447\u0438\u043a\u0430\u0445\u00a0\u0431\u044b\u043b \u00abCaviar House Airport P Frankfurt Deu\u00bb \u2014 7 \u043f\u043e\u043a\u0443\u043f\u043e\u043a \u043d\u0430 \u0441\u0443\u043c\u043c\u0443 700\u00a0\u20bd \u0437\u0430 \u044d\u0442\u043e\u0442 \u043f\u0435\u0440\u0438\u043e\u0434",
-              "typeface": "footnote1",
+        "left": {
+          "type": "simple_left_view",
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "118 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439",
+              "typeface": "body1",
               "text_color": "default",
-              "max_lines": 0,
-              "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
-              }
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "\u0418\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0439 \u0444\u0430\u043a\u0442",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u0421 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2021",
               "typeface": "footnote1",
-              "text_color": "tertiary",
-              "max_lines": 0,
+              "text_color": "secondary",
               "margins": {
-                "top": "2x",
-                "bottom": "2x",
-                "left": "2x",
-                "right": "2x"
+                "top": "1x"
               }
             }
           }
-        ]
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/22341.png",
+              "placeholder": "digital_banknotes"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Bistro De Luxe",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b \u0438 \u043a\u0430\u0444\u0435",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "2\u00a0100\u00a0\u20bd",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/21.png",
+              "placeholder": "digital_banknotes"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "Bistro De Luxe",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b \u0438 \u043a\u0430\u0444\u0435",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "1\u00a0100\u00a0\u20bd",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/7.png",
+              "placeholder": "student_hat"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "\u0413\u0438\u043f\u0435\u0440\u0433\u043b\u043e\u0431\u0443\u0441",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "4\u00a0400\u00a0\u20bd",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/7.png",
+              "placeholder": "student_hat"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "\u0413\u0438\u043f\u0435\u0440\u0433\u043b\u043e\u0431\u0443\u0441",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "999\u00a0\u20bd",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/19.png",
+              "placeholder": "plane"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "\u041c\u0435\u0433\u0430\u0444\u043e\u043d",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "1\u00a0000\u00a0\u20bd",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "30 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/19.png",
+              "placeholder": "plane"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "\u041c\u0435\u0433\u0430\u0444\u043e\u043d",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "right": {
+          "type": "detail_right_view",
+          "detail": {
+            "text": "700\u00a0\u20bd",
+            "typeface": "body1",
+            "text_color": "default"
+          },
+          "margins": {
+            "left": "4x"
+          },
+          "info_and_icon": {
+            "info": {
+              "text": "30 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "max_lines": 1
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/101.png",
+              "placeholder": "list"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "6x"
+            },
+            "tint_color": "solid_brand",
+            "rounded_corners": "circle"
+          },
+          "icon_vertical_gravity": "top",
+          "texts": {
+            "title": {
+              "text": "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0435\u0449\u0451",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "type": "server_action",
+            "message_name": "SERVER_ACTION",
+            "server_action": {
+              "action_id": "get_operations_more"
+            }
+          },
+          {
+            "text": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439",
+            "type": "text",
+            "should_send_to_backend": false
+          }
+        ],
+        "vertical_gravity": "center"
       }
-    }
+    ]
+  }
+}
