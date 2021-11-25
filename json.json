@@ -37,21 +37,6 @@
             "scale_mode": "scale_aspect_fill",
             "height": 44
           },
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://pfm-stat.online.sberbank.ru/PFM/logos3/7bb07c13-b8c5-436e-b416-bde30f3a7188.png"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand",
-            "rounded_corners": "circle"
-          },
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
