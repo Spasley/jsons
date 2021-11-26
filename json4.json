@@ -8,14 +8,36 @@
     },
     "cells": [
       {
-        "type": "text_cell_view",
+        "type": "left_right_cell_view",
         "paddings": {
-          "left": "8x"
+          "left": "8x",
+          "top": "8x",
+          "right": "8x",
+          "bottom": "8x"
         },
-        "content": {
-          "text": "118 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439",
-          "typeface": "headline3",
-          "text_color": "default"
+        "left": {
+          "type": "simple_left_view",
+          "texts": {
+            "title": {
+              "text": "6 операций",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 3
+            },
+            "subtitle": {
+              "text": "С марта 2020",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
+            }
+          }
+        },
+        "vertical_gravity": "center",
+        "divider": {
+          "style": "default",
+          "size": "d5"
         }
       },
       {
@@ -31,7 +53,7 @@
           "icon": {
             "address": {
               "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/21.png",
+              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
               "placeholder": "digital_banknotes"
             },
             "size": {
@@ -47,13 +69,13 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "Bistro De Luxe",
+              "text": "Caviar House Airport P Frankfurt Deu",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
             },
             "subtitle": {
-              "text": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b \u0438 \u043a\u0430\u0444\u0435",
+              "text": "Рестораны и кафе",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -65,7 +87,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "2\u00a0100\u00a0\u20bd",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -74,7 +96,7 @@
           },
           "info_and_icon": {
             "info": {
-              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "text": "1 декабря",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
@@ -100,7 +122,7 @@
           "icon": {
             "address": {
               "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/21.png",
+              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
               "placeholder": "digital_banknotes"
             },
             "size": {
@@ -116,13 +138,13 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "Bistro De Luxe",
+              "text": "Caviar House Airport P Frankfurt Deu",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
             },
             "subtitle": {
-              "text": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b \u0438 \u043a\u0430\u0444\u0435",
+              "text": "Рестораны и кафе",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -134,7 +156,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "1\u00a0100\u00a0\u20bd",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -143,7 +165,7 @@
           },
           "info_and_icon": {
             "info": {
-              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "text": "1 декабря",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
@@ -169,8 +191,8 @@
           "icon": {
             "address": {
               "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/7.png",
-              "placeholder": "student_hat"
+              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+              "placeholder": "digital_banknotes"
             },
             "size": {
               "width": "medium",
@@ -185,13 +207,13 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "\u0413\u0438\u043f\u0435\u0440\u0433\u043b\u043e\u0431\u0443\u0441",
+              "text": "Caviar House Airport P Frankfurt Deu",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
             },
             "subtitle": {
-              "text": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+              "text": "Рестораны и кафе",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -203,7 +225,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "4\u00a0400\u00a0\u20bd",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -212,7 +234,7 @@
           },
           "info_and_icon": {
             "info": {
-              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "text": "1 октября",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
@@ -238,8 +260,8 @@
           "icon": {
             "address": {
               "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/7.png",
-              "placeholder": "student_hat"
+              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+              "placeholder": "digital_banknotes"
             },
             "size": {
               "width": "medium",
@@ -254,13 +276,13 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "\u0413\u0438\u043f\u0435\u0440\u0433\u043b\u043e\u0431\u0443\u0441",
+              "text": "Caviar House Airport P Frankfurt Deu",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
             },
             "subtitle": {
-              "text": "\u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+              "text": "Рестораны и кафе",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -272,7 +294,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "999\u00a0\u20bd",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -281,7 +303,7 @@
           },
           "info_and_icon": {
             "info": {
-              "text": "31 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "text": "1 октября",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
@@ -307,8 +329,8 @@
           "icon": {
             "address": {
               "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/19.png",
-              "placeholder": "plane"
+              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+              "placeholder": "digital_banknotes"
             },
             "size": {
               "width": "medium",
@@ -323,13 +345,13 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "\u041c\u0435\u0433\u0430\u0444\u043e\u043d",
+              "text": "Caviar House Airport P Frankfurt Deu",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
             },
             "subtitle": {
-              "text": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f",
+              "text": "Рестораны и кафе",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -341,7 +363,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "1\u00a0000\u00a0\u20bd",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -350,7 +372,7 @@
           },
           "info_and_icon": {
             "info": {
-              "text": "30 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "text": "1 сентября",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
@@ -376,8 +398,8 @@
           "icon": {
             "address": {
               "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/19.png",
-              "placeholder": "plane"
+              "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+              "placeholder": "digital_banknotes"
             },
             "size": {
               "width": "medium",
@@ -392,13 +414,13 @@
           "icon_vertical_gravity": "top",
           "texts": {
             "title": {
-              "text": "\u041c\u0435\u0433\u0430\u0444\u043e\u043d",
+              "text": "Caviar House Airport P Frankfurt Deu",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 3
             },
             "subtitle": {
-              "text": "\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f",
+              "text": "Рестораны и кафе",
               "typeface": "footnote1",
               "text_color": "secondary",
               "margins": {
@@ -410,7 +432,7 @@
         "right": {
           "type": "detail_right_view",
           "detail": {
-            "text": "700\u00a0\u20bd",
+            "text": "100 ₽",
             "typeface": "body1",
             "text_color": "default"
           },
@@ -419,75 +441,13 @@
           },
           "info_and_icon": {
             "info": {
-              "text": "30 \u0430\u0432\u0433\u0443\u0441\u0442\u0430",
+              "text": "1 сентября",
               "typeface": "footnote1",
               "text_color": "secondary",
               "max_lines": 1
             }
           }
         },
-        "vertical_gravity": "center",
-        "divider": {
-          "style": "default",
-          "size": "d5"
-        }
-      },
-      {
-        "type": "left_right_cell_view",
-        "paddings": {
-          "left": "8x",
-          "top": "8x",
-          "right": "8x",
-          "bottom": "8x"
-        },
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "url",
-              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/101.png",
-              "placeholder": "list"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "right": "6x"
-            },
-            "tint_color": "solid_brand",
-            "rounded_corners": "circle"
-          },
-          "icon_vertical_gravity": "top",
-          "texts": {
-            "title": {
-              "text": "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0435\u0449\u0451",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 3
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "right": "5x"
-          }
-        },
-        "actions": [
-          {
-            "type": "server_action",
-            "message_name": "SERVER_ACTION",
-            "server_action": {
-              "action_id": "get_operations_more"
-            }
-          },
-          {
-            "text": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439",
-            "type": "text",
-            "should_send_to_backend": false
-          }
-        ],
         "vertical_gravity": "center"
       }
     ]
