@@ -17,49 +17,21 @@
                           },
                           "left": {
                             "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "url",
-                                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
-                                "placeholder": "digital_banknotes"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "right": "6x"
-                              },
-                              "tint_color": "solid_brand",
-                              "rounded_corners": "circle"
-                            },
-                            "icon_vertical_gravity": "top",
                             "texts": {
                               "title": {
-                                "text": "Карты и платёжные счета",
+                                "text": "Одна операция",
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 3
                               },
                               "subtitle": {
-                                "text": "4 карты и 2 счета",
+                                "text": "В феврале",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
                                   "top": "1x"
                                 }
                               }
-                            }
-                          },
-                          "right": {
-                            "type": "detail_right_view",
-                            "detail": {
-                              "text": "67 951,02 ₽",
-                              "typeface": "body1",
-                              "text_color": "default"
-                            },
-                            "margins": {
-                              "left": "4x"
                             }
                           },
                           "vertical_gravity": "center",
@@ -81,8 +53,8 @@
                             "icon": {
                               "address": {
                                 "type": "url",
-                                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/152.png",
-                                "placeholder": "digital_banknotes"
+                                "url": "https://pfm.stat.online.sberbank.ru/PFM/logos/william_evans_ltd_dd0d90e6-1745-4fdb-b9e1-21a97fd956d9.jpg",
+                                "placeholder": "star_light"
                               },
                               "size": {
                                 "width": "medium",
@@ -97,22 +69,38 @@
                             "icon_vertical_gravity": "top",
                             "texts": {
                               "title": {
-                                "text": "Кредитная карта",
+                                "text": "Caviar House Airport P \"Frankfurt Deu\"",
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "max_lines": 3
+                              },
+                              "subtitle": {
+                                "text": "Рестораны и кафе",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "top": "1x"
+                                }
                               }
                             }
                           },
                           "right": {
                             "type": "detail_right_view",
                             "detail": {
-                              "text": "1 000 000 ₽",
+                              "text": "100 ₽",
                               "typeface": "body1",
                               "text_color": "default"
                             },
                             "margins": {
                               "left": "4x"
+                            },
+                            "info_and_icon": {
+                              "info": {
+                                "text": "1 февраля",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 1
+                              }
                             }
                           },
                           "vertical_gravity": "center"
