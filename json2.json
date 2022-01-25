@@ -1,69 +1,347 @@
-{
-                    "card": {
-                      "type": "list_card",
-                      "paddings": {
-                        "top": "4x",
-                        "bottom": "4x",
-                        "left": "4x"
-                      },
-                      "cells": [
-                        {
-                          "type": "left_right_cell_view",
-                          "paddings": {
-                            "left": "8x",
-                            "top": "8x",
-                            "right": "8x",
-                            "bottom": "8x"
-                          },
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "url",
-                                "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/150.png",
-                                "placeholder": "digital_banknotes"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "right": "6x"
-                              },
-                              "tint_color": "solid_brand",
-                              "rounded_corners": "circle"
-                            },
-                            "icon_vertical_gravity": "top",
-                            "texts": {
-                              "title": {
-                                "text": "Карты и платёжные счета",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "max_lines": 3
-                              },
-                              "subtitle": {
-                                "text": "1 счёт",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                  "top": "1x"
-                                }
-                              }
-                            }
-                          },
-                          "right": {
-                            "type": "detail_right_view",
-                            "detail": {
-                              "text": "15 350,39 ₽",
-                              "typeface": "body1",
-                              "text_color": "default"
-                            },
-                            "margins": {
-                              "left": "4x"
-                            }
-                          },
-                          "vertical_gravity": "center"
-                        }
-                      ]
+
+    
+    
+    
+    {
+        "card": {
+            "type": "list_card",
+            "paddings": {
+                "top": "10x",
+                "left": "8x",
+                "right": "8x",
+                "bottom": "10x"
+        },
+        "cells": [
+            
+            
+                
+                
+                {
+                    "type": "text_cell_view",
+                    "content": {
+                        "text": "Расходы\n",
+                        "typeface": "headline3",
+                        "text_color": "default",
+                        "max_lines": 2
                     }
-                  }
+                }
+                
+                ,
+            
+                
+                
+                {
+                    "type": "text_cell_view",
+                    "content": {
+                        "text": "2 400,55 ₽",
+                        "typeface": "headline1",
+                        "text_color": "default"
+                    },
+                    "paddings": {
+                        "top": "6x"
+                    }
+                }
+                
+                
+            
+        ]
+      }
+    }
+    ,
+    
+    
+    {
+        "card": {
+            "type": "list_card",
+            "paddings": {
+                "top": "4x",
+                "bottom": "4x",
+                "left": "4x"
+            },
+            "cells": [
+            
+                
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "left": "8x",
+                        "top": "8x",
+                        "right": "8x",
+                        "bottom": "8x"
+                    },
+                    "left": {
+                      "type": "simple_left_view",
+                      
+                      "icon": {
+                          "address": {
+                              "type": "url",
+                          
+                              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/1.png",
+                          
+                              "placeholder": "car"
+                              },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        },
+                        "tint_color": "solid_brand",
+                        "rounded_corners": "circle"
+                      },
+                      
+                      "icon_vertical_gravity": "top",
+                      "texts": {
+                        "title": {
+                          "text": "Автомобиль",
+                          "typeface": "body1",
+                          "text_color": "default",
+                          "max_lines": 3
+                        }
+                      
+                      }
+                    },
+                    
+                    "right": {
+                        "type": "detail_right_view",
+                        "detail": {
+                            "text": "1 000,15 ₽",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        },
+                        "margins": {
+                            "left": "4x"
+                        }
+                        
+                    },
+                    
+                    
+                        "actions": [{"text": "Самые большие операции в категории автомобиль в этом месяце", "type": "text", "should_send_to_backend": true}],
+                     
+                    "vertical_gravity": "center"
+
+                    ,
+                    "divider": {
+                      "style": "default",
+                      "size": "d5"
+                    }
+                    
+                    }
+                
+                    ,
+            
+                
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "left": "8x",
+                        "top": "8x",
+                        "right": "8x",
+                        "bottom": "8x"
+                    },
+                    "left": {
+                      "type": "simple_left_view",
+                      
+                      "icon": {
+                          "address": {
+                              "type": "url",
+                          
+                              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/9.png",
+                          
+                              "placeholder": "basket"
+                              },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        },
+                        "tint_color": "solid_brand",
+                        "rounded_corners": "circle"
+                      },
+                      
+                      "icon_vertical_gravity": "top",
+                      "texts": {
+                        "title": {
+                          "text": "Супермаркеты",
+                          "typeface": "body1",
+                          "text_color": "default",
+                          "max_lines": 3
+                        }
+                      
+                      }
+                    },
+                    
+                    "right": {
+                        "type": "detail_right_view",
+                        "detail": {
+                            "text": "700,15 ₽",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        },
+                        "margins": {
+                            "left": "4x"
+                        }
+                        
+                    },
+                    
+                    
+                        "actions": [{"text": "Самые большие операции в категории супермаркеты в этом месяце", "type": "text", "should_send_to_backend": true}],
+                     
+                    "vertical_gravity": "center"
+
+                    ,
+                    "divider": {
+                      "style": "default",
+                      "size": "d5"
+                    }
+                    
+                    }
+                
+                    ,
+            
+                
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "left": "8x",
+                        "top": "8x",
+                        "right": "8x",
+                        "bottom": "8x"
+                    },
+                    "left": {
+                      "type": "simple_left_view",
+                      
+                      "icon": {
+                          "address": {
+                              "type": "url",
+                          
+                              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/4.png",
+                          
+                              "placeholder": "digital_banknotes"
+                              },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        },
+                        "tint_color": "solid_brand",
+                        "rounded_corners": "circle"
+                      },
+                      
+                      "icon_vertical_gravity": "top",
+                      "texts": {
+                        "title": {
+                          "text": "Коммунальные платежи, связь, интернет",
+                          "typeface": "body1",
+                          "text_color": "default",
+                          "max_lines": 3
+                        }
+                      
+                      }
+                    },
+                    
+                    "right": {
+                        "type": "detail_right_view",
+                        "detail": {
+                            "text": "500,10 ₽",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        },
+                        "margins": {
+                            "left": "4x"
+                        }
+                        
+                    },
+                    
+                    
+                        "actions": [{"text": "Самые большие операции в категории коммунальные платежи, связь, интернет в этом месяце", "type": "text", "should_send_to_backend": true}],
+                     
+                    "vertical_gravity": "center"
+
+                    ,
+                    "divider": {
+                      "style": "default",
+                      "size": "d5"
+                    }
+                    
+                    }
+                
+                    ,
+            
+                
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "left": "8x",
+                        "top": "8x",
+                        "right": "8x",
+                        "bottom": "8x"
+                    },
+                    "left": {
+                      "type": "simple_left_view",
+                      
+                      "icon": {
+                          "address": {
+                              "type": "url",
+                          
+                              "url": "https://va-res.online.sberbank.ru/VA/icons/pfm_skills/5.png",
+                          
+                              "placeholder": "heart"
+                              },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        },
+                        "tint_color": "solid_brand",
+                        "rounded_corners": "circle"
+                      },
+                      
+                      "icon_vertical_gravity": "top",
+                      "texts": {
+                        "title": {
+                          "text": "Здоровье и красота",
+                          "typeface": "body1",
+                          "text_color": "default",
+                          "max_lines": 3
+                        }
+                      
+                      }
+                    },
+                    
+                    "right": {
+                        "type": "detail_right_view",
+                        "detail": {
+                            "text": "200,15 ₽",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        },
+                        "margins": {
+                            "left": "4x"
+                        }
+                        
+                    },
+                    
+                    
+                        "actions": [{"text": "Самые большие операции в категории здоровье и красота в этом месяце", "type": "text", "should_send_to_backend": true}],
+                     
+                    "vertical_gravity": "center"
+
+                    
+                    }
+                
+                    
+            
+
+            ]
+        }
+    }
+    
+
